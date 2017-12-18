@@ -1,0 +1,202 @@
+body {
+    background: #fcfcfc;
+    color: #333;
+    width: 75%;
+    min-width: 275px;
+    max-width: 700px;
+    margin: auto;
+    font-family: 'Georgia', 'Palatino', serif;
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: solid #eaeaea;
+    border-width: 1px 0 0 0;
+}
+
+/* header */
+
+header {
+    margin-top: 1.5em;
+}
+
+#gloopy {
+    display: flex;
+    justify-content: center;
+}
+
+#gloopy img {
+    width: 100%;
+    height: auto;
+}
+
+/* intro */
+
+#intro {
+    margin-bottom: 2em;
+}
+
+/* list of hosted wikis */
+
+#projects {
+    margin-bottom: 2em;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.project {
+    margin: 1.5em auto 0;
+    width: 100%;
+    max-width: 600px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+    display: flex;
+}
+
+.project:hover {
+    text-decoration: none;
+    filter: brightness(110%);
+}
+
+.project .logo {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 135px 135px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+}
+
+.project .text {
+    flex: 2;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: auto 2em auto 0;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.project .name {
+    font-size: 1.4em;
+    margin: .35em 0;
+}
+
+.project .description {
+    font-size: .85em;
+    margin: 0;
+}
+
+#project-rs {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-RS.jpg');
+}
+
+#project-rs .logo {
+    background-image: url('../images/RuneScape-Wiki-logo.png');
+}
+
+#project-osrs {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-OSRS.jpg');
+}
+
+#project-osrs .logo {
+    background-image: url('../images/Old-School-RuneScape-Wiki-logo.png');
+}
+
+#project-meta {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-Meta.jpg');
+}
+
+#project-meta .logo {
+    background-image: url('../images/Meta-RuneScape-Wiki-logo.png');
+}
+
+/* footer */
+
+footer {
+    font-size: 85%;
+    margin: 2em 0 4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .links {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+
+    display: flex;
+    flex: 1 100%;
+    justify-content: space-between;
+}
+
+/* media queries */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    #project-rs {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-RS@2x.jpg');
+    }
+
+    #project-rs .logo {
+        background-image: url('../images/RuneScape-Wiki-logo@2x.png');
+    }
+
+    #project-osrs {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-OSRS@2x.jpg');
+    }
+
+    #project-osrs .logo {
+        background-image: url('../images/Old-School-RuneScape-Wiki-logo@2x.png');
+    }
+
+    #project-meta {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.4) 100%), url('../images/Banner-Meta@2x.jpg');
+    }
+
+    #project-meta .logo {
+        background-image: url('../images/Meta-RuneScape-Wiki-logo@2x.png');
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 100%;
+    }
+
+    #project-rs,
+    #project-osrs,
+    #project-meta {
+        background-size: auto 100%;
+    }
+
+    .project .logo {
+        background-position: center;
+    }
+
+    .project .text {
+        display: none;
+    }
+
+    footer .links {
+        flex-flow: column wrap;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+    .project {
+        padding: 0 .15em;
+    }
+}
