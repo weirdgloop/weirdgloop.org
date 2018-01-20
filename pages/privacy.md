@@ -41,4 +41,4 @@ Our privacy policy may change on occasion. Changes to the policy will be reflect
 This policy applies when viewing pages on any of our sites and using our services. It will not apply to any external links that are followed. We are not responsible for the content or privacy policies of sites that we link to.
 
 ### Storage duration
-We keep any identifiable information we have for the shortest psosible time, in accordance with law. Non-private information, such as contributions to the site, may be kept indefinitely subject to our [licensing](/licensing).
+We keep any identifiable information we have for the shortest possible time, in accordance with law. Non-private information, such as contributions to the site, may be kept indefinitely subject to our [licensing](/licensing).

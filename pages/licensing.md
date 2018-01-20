@@ -23,6 +23,9 @@ When you contribute to any of the sites we control, you will be attributed throu
 On our sites that are powered by [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), you will be attributed through the page's history which can be accessed by anyone. This attribution is in the form of your username, or IP address if you made the contribution while not being logged into an account.
 
 ### Using our content
-If you are a third party and wish to use our content, you may do so in accordance with our [Terms of Use](/terms), the license in which the site the information is from operates under, and the information on this page. When using our content that is under a Creative Commons license, you must provide suitable attribution. We recommend something similar to:
+If you are a third party and wish to use content from our sites, you may do so in accordance with our [Terms of Use](/terms), the license in which the site the information is from operates under, and the information on this page. When using our content that is under a Creative Commons license, you must provide suitable attribution. We recommend something similar to:
 
 > *We use content from the [RuneScape Wiki](/) under [these terms](/licensing).*
+
+### Source code
+The source code for some of our sites, extensions, and tools, are publicly accessible on [GitLab](https://gitlab.com/weirdgloop). For the majority of our repositories, the code is licensed under [GNU General Public License v2](https://choosealicense.com/licenses/gpl-2.0/) or later, however some projects may have a different license or no license at all. Please check for a `COPYING` or `LICENSE` file, or information in the `README` file, for information. If license information cannot be found in any of those, the project doesn't have a license and will be subject to an "All Rights Reserved" copyright by Weird Gloop.
