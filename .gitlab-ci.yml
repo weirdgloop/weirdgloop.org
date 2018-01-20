@@ -1,0 +1,25 @@
+image: ruby:2.5
+stages:
+- build
+- deploy
+
+build site:
+  stage: build
+  script:
+    - ./scripts/ci.sh
+  variables:
+    JEKYLL_ENV: production
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - _site
+  cache:
+    paths:
+      - vendor
+
+.deploy site:
+  stage: deploy
+  script:
+    - ./scripts/deploy.sh
+  only:
+    - master

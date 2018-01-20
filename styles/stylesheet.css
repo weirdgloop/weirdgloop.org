@@ -3,7 +3,7 @@ body {
     color: #333;
     width: 75%;
     min-width: 275px;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
     font-family: 'Georgia', 'Palatino', serif;
     font-size: 1.15em;
@@ -127,12 +127,15 @@ header {
 footer {
     font-size: 85%;
     margin: 2em 0 4em;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer #legal {
+    font-size: 0.75em;
+    color: #666;
 }
 
 footer .links {
-    text-align: center;
     list-style: none;
     padding: 0;
     margin: 0 auto;

@@ -1,0 +1,19 @@
+title: Weird Gloop
+email: support@weirdgloop.org
+description: > # this means to ignore newlines until "baseurl:"
+  The non-profit behind the RuneScape and Old School wikis.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+google-site-verification: edJRgAhGidylXbXZu05J3aRBcd45ICOap3iqyossp00
+lang: en_GB
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - [vendor]

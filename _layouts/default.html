@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="/styles/stylesheet.css">
+    <link rel="icon" sizes="16x16 32x32 48x48" href="/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <div id="gloopy">
+            <a href="{{ site.url }}" title="Weird Gloop">
+                <picture>
+                    <source media="(max-width: 450px)" alt="Weird Gloop" srcset="/images/Weird-Gloop-bucket.png 1x, /images/Weird-Gloop-bucket@2x.png 2x">
+                    <img src="/images/Weird-Gloop-logo.png" alt="Weird Gloop" srcset="/images/Weird-Gloop-logo@2x.png 2x">
+                </picture>
+            </a>
+        </div>
+    </header>
+
+    {{ content }}
+
+    <hr>
+
+    <footer>
+        <ul class="links">
+            <li><a href="/licensing/">Licensing</a></li>
+            <li><a href="/terms/">Terms of Use</a></li>
+            <li><a href="/privacy/">Privacy</a></li>
+            <li><a href="mailto:support@weirdgloop.org">Contact</a></li>
+        </ul>
+        <span id="legal">&copy; 2018 Weird Gloop Ltd. The Apex, 2 Sheriffs Orchard, Coventry, England, CV1 3PP, UK. </span>
+    </footer>
+
+</body>
+
+</html>
