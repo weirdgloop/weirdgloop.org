@@ -16,4 +16,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - [vendor]
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
