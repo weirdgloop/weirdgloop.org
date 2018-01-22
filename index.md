@@ -21,11 +21,11 @@ Through the contributions of countless editors over more than a decade, we are t
             <p class="description">For the retro-styled version of the game</p>
         </div>
     </a>
-    <a class="project" id="project-meta" href="#" title="Meta RuneScape Wiki">
+    <a class="project" id="project-meta" href="http://meta.weirdgloop.org" title="Meta Weird Gloop">
         <div class="logo"></div>
         <div class="text">
-            <h2 class="name">Meta RuneScape Wiki</h2>
-            <p class="description">For internal discussions about our wikis</p>
+            <h2 class="name">Meta Weird Gloop</h2>
+            <p class="description">For internal discussions about our wikis and company</p>
         </div>
     </a>
 </div>
