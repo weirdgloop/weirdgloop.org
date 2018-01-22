@@ -26,7 +26,7 @@ build site:
     paths:
       - vendor
 
-.deploy site:
+deploy site:
   stage: deploy
   script:
     - ./scripts/deploy.sh
