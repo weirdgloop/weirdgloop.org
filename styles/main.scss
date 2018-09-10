@@ -11,7 +11,7 @@ body {
   min-width: 275px;
   max-width: 900px;
   margin: auto;
-  font-family: 'Georgia', 'Palatino', serif;
+  font-family: 'Noto Sans', 'Georgia', 'Palatino', serif;
   font-size: 1.15em;
   line-height: 1.5em;
 }
@@ -208,4 +208,8 @@ footer .legal {
   .project {
       padding: 0 .15em;
   }
+}
+
+.author {
+  color: #969696;
 }
