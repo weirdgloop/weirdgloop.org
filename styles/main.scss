@@ -214,14 +214,36 @@ footer .legal {
   color: #969696;
 }
 
-.error-page {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); /* IE 9 */
-  -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .error-page {
+    text-align: center;
+    color: #FFF;
+
+    a {
+      color: #6cd5ff;
+    }
+  }
+
+  .cloudflare {
+    font-size: 12px;
+    line-height: 1.25em;
+    text-align: left;
+
+    h1 {
+      font-size: inherit;
+      font-weight: 600;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
 }
 
 .error-image {

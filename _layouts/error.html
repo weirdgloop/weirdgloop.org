@@ -9,22 +9,21 @@
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
     <link rel="stylesheet" href="/styles/main.css">
+    <style>
+      body {
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+      }
+    </style>
 </head>
 
 <body>
-
+  <div class="error-container">
     <div class="error-page">
       {{ content }}
-
-      <footer>
-        <hr>
-  
-        <p class="legal">
-          &copy; 2018 Weird Gloop Ltd, The Apex, 2 Sheriffs Orchard, Coventry, England, CV1 3PP, UK.<br>
-          RuneScape and RuneScape Old School are the trademarks of Jagex Limited and are used with the permission of Jagex.
-        </p>
-      </footer>
     </div>
+  </div>
 </body>
 
 </html>
