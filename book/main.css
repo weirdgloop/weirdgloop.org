@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: mediumspringgreen;
+}
+
+h2 {
+    color: yellow;
+    border-top: 4px ridge;
+}
+
+strong {
+    color: red;
+    font-weight: bold
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+body {
+    color: white;
+    background-color: bisque;
+    background: url('files/wall.png') repeat;
+}
+
+.af-body {
+    max-width: 800px;
+    margin: auto;
+}
+
+.section-head {
+    text-align: center;
+    background-color: mediumblue;
+    margin-bottom: 1em
+}
+
+.section-head h1 {
+    color: salmon;
+    text-shadow: 5px 5px 0 black;
+}
+
+.section-nav {
+    border: 5px ridge green;
+    background-color: purple;
+    font-family: 'Comic Sans MS', sans-serif;
+    float: left;
+}
+
+table {
+    background: mediumblue;
+}
+
+td {
+    border: 1px solid white;
+}
+
+.section-footer {
+    font-size: .85em;
+    margin-top: 2em;
+    text-align: center;
+}
