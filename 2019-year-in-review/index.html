@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<script>
+    // if no localStorage item is set (user hasn't visited the site before),
+    // check for user's system-level preference
+    if (localStorage.getItem('dark-mode') == null) {
+        localStorage.setItem('dark-mode', window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+
+    // put this at the top of the page to avoid flash of js loading
+    if (localStorage.getItem('dark-mode') == 'true') {
+        document.getElementsByTagName('html')[0].classList.add('is-dark-mode');
+    }
+</script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="The 2019 Year in Review for the RuneScape Wiki and Old School RuneScape Wiki.">
+    <title>2019 Year in Review – The RuneScape Wikis</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700|IBM+Plex+Mono:400|PT+Serif:700&display=swap">
+    <link rel="stylesheet" href="styles/stylesheet.min.css">
+</head>
+
+<body>
+    <header class="yir-section">
+        <div class="title">
+            <h1>
+                <div class="title-small">The RuneScape Wikis:</div>
+                <div class="title-big">2019</div>
+                <div class="title-small">Year in Review</div>
+            </h1>
+        </div>
+    </header>
+    <nav class="yir-section">
+        <ul class="yir-container">
+            <li><a href="#wikis">Wikis</a></li>
+            <li><a href="#popular">Superlatives</a></li>
+            <li><a href="#milestones">Milestones</a></li>
+            <li><a href="#statistics">Statistics</a></li>
+            <li><a href="#technical">Technical</a></li>
+            <li><a href="#irl">Meetups</a></li>
+            <li>
+                <button id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <!-- SVG code from <https://blog.jim-nielsen.com/2018/icon-galleries-dark-mode/> -->
+                    <svg class="svg-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M17.3956,15.8648 C12.2784,15.8648 8.133,11.7168 8.133,6.602 C8.133,4.9176 8.6164,3.3598 9.4026,2 C5.1372,3.2304 2,7.1172 2,11.7778 C2,17.4222 6.5752,22 12.2198,22 C16.8804,22 20.7696,18.8604 22,14.5976 C20.6376,15.3812 19.08,15.8648 17.3956,15.8648 Z"></path>
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <section class="yir-section intro">
+        <div class="yir-container">
+            <div class="wg-logos">
+                <a target="_blank" rel="noopener" href="https://runescape.wiki">
+                    <img src="images/RSW.png" srcset="images/RSW@2x.png 2x" title="RuneScape Wiki">
+                </a>
+                <a target="_blank" rel="noopener" href="https://weirdgloop.org">
+                    <img src="images/Weird-Gloop.png" srcset="images/Weird-Gloop@2x.png 2x" title="Weird Gloop">
+                </a>
+                <a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki">
+                    <img src="images/OSRS.png" srcset="images/OSRS@2x.png 2x" title="Old School RuneScape Wiki">
+                </a>
+            </div>
+            <p>2019 has been a great year for <i>RuneScape</i>, and a momentous year for the wikis. We've forged new collaborations and built new tools to make us the best possible resource for <i>RuneScape</i> and <i>Old School RuneScape</i>. We are Weird Gloop, the organisation behind the site, and we take pride in the quality of the wikis. We'd like to share this year's successes with you.</p>
+        </div>
+    </section>
+    <section class="yir-section wikis">
+        <div class="yir-container">
+            <h2 id="wikis">New wikis</h2>
+            <p>In early 2019, we welcomed the Portuguese-Brazilian RuneScape Wiki and the RuneScape Classic Wiki to our network. The Portuguese wiki is maintained by a group of dedicated editors, and we thought it would be a great idea to bring them on board. While <i>RuneScape Classic</i> is no longer available, it's still part of the legacy of the game. Our goal is to preserve the history of <i>RuneScape</i> under one roof, and <i>Classic</i> is part of our family.</p>
+            <div class="wiki-group">
+                <a target="_blank" rel="noopener" class="wiki ptbr" href="https://pt.runescape.wiki">
+                    <div class="byline">Visit the</div>
+                    <h3>Portuguese-Brazilian<br class="wiki-break" />RuneScape Wiki</h3>
+                </a>
+                <a target="_blank" rel="noopener" class="wiki classic" href="https://classic.runescape.wiki">
+                    <div class="byline">Visit the</div>
+                    <h3>RuneScape Classic<br class="wiki-break" />Wiki</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="yir-section popular">
+        <div class="yir-container">
+            <h2 id="popular">Superlatives</h2>
+            <p>As the most complete <i>RuneScape</i> encyclopedia, we've got a lot of players coming to us for information, guides, and calculators. Take a look at some of the most popular content on the wikis, accessed by millions of players during 2019.</p>
+            <div class="popular-group">
+                <h3 class="popular-title">Most popular articles</h3>
+                <div class="tile rsw">
+                    <h4>RuneScape Wiki</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Money_making_guide">Money making guide</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Travelling_Merchant%27s_Shop">Travelling Merchant's Shop</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Player-owned_farm">Player-owned farm</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Skill_training_guides">Skill training guides</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Treasure_Trails">Treasure Trails</a></li>
+                    </ol>
+                </div>
+                <div class="tile osw">
+                    <h4>Old School RuneScape Wiki</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Optimal_quest_guide">Optimal quest guide</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Twisted_League/Guide">Twisted League/Guide</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Achievement_Diary">Achievement Diary</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Money_making_guide">Money making guide</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Recipe_for_Disaster">Recipe for Disaster</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="popular-group">
+                <h3 class="popular-title">Most edited pages</h3>
+                <div class="tile rsw">
+                    <h4>RuneScape Wiki</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Nex:_Angel_of_Death/Strategies">Nex: Angel of Death/Strategies</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Big_Game_Hunter">Big Game Hunter</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Upcoming updates">Upcoming updates</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Transcript:Sliske%27s_Endgame">Transcript:Sliske's Endgame</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Yak_Track">Yak Track</a></li>
+                    </ol>
+                </div>
+                <div class="tile osw">
+                    <h4>Old School RuneScape Wiki</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Song of the Elves">Song of the Elves</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Konar_quo_Maten">Konar quo Maten</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Alchemical_Hydra">Alchemical Hydra</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Zalcano">Zalcano</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Wyrm">Wyrm</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="popular-group">
+                <h3 class="popular-title">Top queries from in-game</h3>
+                <div class="tile rsw">
+                    <h4>RuneScape <code>/wiki</code> searches</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Travelling_Merchant%27s_Shop">merch</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Overload">ovl</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Masterwork_equipment">masterwork</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/Summoning_training">summoning training</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://runescape.wiki/w/200_million_experience">200m</a></li>
+                    </ol>
+                </div>
+                <div class="tile osw">
+                    <h4>RuneLite OSRS wiki interactions</h4>
+                    <ol>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Slayer">Slayer</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Contact!/Quick_guide">Contact!/Quick guide</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Blue_dragon">Blue dragon</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Clue_scroll_(beginner)">Clue scroll (beginner)</a></li>
+                        <li><a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Demonic_gorilla">Demonic gorilla</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="yir-section milestones">
+        <div class="yir-container">
+            <h2 id="milestones">Milestones</h2>
+            <p>The past year has been a massive success for both the RuneScape Wiki and Old School RuneScape Wiki. Here are some of the major achievements from 2019.</p>
+            <ul class="milestone-list">
+                <li>
+                    <div class="byline">5 January 2019</div>
+                    <h3>Update coverage</h3>
+                    <a class="image-trigger" href="images/full/Milestones-1@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Milestones-1.jpg" data-srcset="images/thumbs/Milestones-1@2x.jpg 2x" alt="Concept art of the Kebos Lowlands">
+                    </a>
+                    <p>The wikis started off the year strong with coverage of two big updates. <i>RuneScape</i> featured a complete <a target="_blank" rel="noopener" href="https://runescape.wiki/w/Mining_and_Smithing_rework">Mining and Smithing rework</a>, and <i>Old School RuneScape</i> developed the new <a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Kebos_Lowlands">Kebos Lowlands</a> region. Just hours after release, editors had already prepared articles, taken images, and written guides.</p>
+                </li>
+                <li>
+                    <div class="byline">14 February 2019</div>
+                    <h3>RuneLite integration</h3>
+                    <p>The OSRS client RuneLite released a <a target="_blank" rel="noopener" href="https://runelite.net/blog/show/2019-02-14-1.5.12-Release/">wiki plugin</a> to help users quickly pull up articles on items, NPCs, and quests. This feature has been used over 6 million times since launch.</p>
+                </li>
+                <li>
+                    <div class="byline">2 March 2019</div>
+                    <h3>RuneLite drop rates</h3>
+                    <p>RuneLite provided the Old School RuneScape Wiki with 50 million kills of drop log data. This resource has enabled the wiki to calculate accurate drop tables for hundreds of monsters that would never otherwise have been possible.</p>
+                </li>
+                <li>
+                    <div class="byline">17 March 2019</div>
+                    <h3>One Small Wiki Favour</h3>
+                    <a class="image-trigger" href="images/full/Milestones-2@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Milestones-2.jpg" data-srcset="images/thumbs/Milestones-2@2x.jpg 2x" alt="The One Small Wiki Favour project page">
+                    </a>
+                    <p>Across both wikis we launched <a target="_blank" rel="noopener" href="https://runescape.wiki/w/RuneScape:One_Small_Wiki_Favour">One Small Wiki Favour</a>, a programme to reward new editors with bonds in-game for their contributions to the wiki. This has gotten over a hundred new editors involved and helped complete numerous wiki projects.</p>
+                </li>
+                <li>
+                    <div class="byline">21 April 2019</div>
+                    <h3>Discord collaboration</h3>
+                    <p>We have affiliated with other Discord communities to improve our coverage on specialised topics. The PvM Encyclopedia community have helped us write <a target="_blank" rel="noopener" href="https://runescape.wiki/w/Forum:Discord_collaboration:_PvM_Encyclopedia">high-level PvM guides</a> on RSW, and the RuneScape Speedruns community have provided high quality <a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Speedrunning_guide">speedrunning guides</a> for OSRS. The wikis are always looking out for dedicated teams to collaborate with on any subject.</p>
+                </li>
+                <li>
+                    <div class="byline">20 May 2019</div>
+                    <h3>/wiki integration</h3>
+                    <p>The official <i>RuneScape</i> client was updated to add integration with the wiki. Players can now type <code>/wiki</code> in the chatbox to easily search for wiki articles from directly in-game.</p>
+                </li>
+                <li>
+                    <div class="byline">16 September 2019</div>
+                    <h3>Perks calculator</h3>
+                    <p>The RuneScape Wiki released a complete <a target="_blank" rel="noopener" href="https://runescape.wiki/w/Calculator:Perks">perks calculator</a>! Perks had long been poorly understood, so figuring out the exact mechanics was a big accomplishment. This would not have been possible without the help of Mod Shauny.</p>
+                </li>
+                <li>
+                    <div class="byline">5 October 2019</div>
+                    <h3>RuneFest wiki panel</h3>
+                    <a class="image-trigger" href="images/full/Milestones-3@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Milestones-3.jpg" data-srcset="images/thumbs/Milestones-3@2x.jpg 2x" alt="The Another Slice of W.I.K.I. panel">
+                    </a>
+                    <p>In a RuneFest first, our editors hosted a panel to discuss all things wiki. It was a huge opportunity to talk with Jagex Moderators, who provided invaluable collaboration on a number of wiki projects. Check out <a target="_blank" rel="noopener" href="https://youtu.be/YwwRTv-nlH4">a recording of the livestream!</a></p>
+                </li>
+                <li>
+                    <div class="byline">14 November 2019</div>
+                    <h3>Twisted League coverage</h3>
+                    <p><i>Old School RuneScape</i> launched <a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Twisted_League">Twisted League</a>, a seasonal competition in Great Kourend and the Kebos Lowlands. The wiki prepared a collection of guides and annotated the entire wiki with Twisted League icons. On the day of release, thousands of players utilised the wiki to explore Twisted League from the very beginning.</p>
+                </li>
+                <li>
+                    <div class="byline">13 December 2019</div>
+                    <h3>RuneScape events interface</h3>
+                    <p>The RuneScape Wiki launched a convenient events interface accessible on every page. The interface shows useful timers for dailies, as well as the current Voice of Seren and featured activities. Check it out by clicking the calendar icon at the top of the page!</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="yir-section statistics">
+        <div class="yir-container">
+            <h2 id="statistics">Statistics</h2>
+            <p>With hundreds of thousands of articles and images, the wiki is all about actual data. We've had an impressive year in terms of numbers, and collected a few statistics over the past year.</p>
+            <h3>Traffic</h3>
+            <p>The wiki has been utilised by millions of visitors for each of the games. Our biggest countries are the United States and the United Kingdom, but we've been visited by almost every country on the planet (including North Korea).</p>
+            <dl class="stats traffic">
+                <div class="tile">
+                    <h4>Total pageviews</h4>
+                    <dt>771m</dt>
+                    <dd>Across all wikis over the last twelve months</dd>
+                </div>
+                <div class="tile">
+                    <h4>Total visitors</h4>
+                    <dt>10.4m</dt>
+                    <dd>Across all wikis over the last twelve months</dd>
+                </div>
+                <div class="tile">
+                    <h4>Average duration</h4>
+                    <dt>9:05</dt>
+                    <dd>Average time spent on the wikis in a session</dd>
+                </div>
+                <div class="tile">
+                    <h4><code>/wiki</code> usage</h4>
+                    <dt>1.1m</dt>
+                    <dd>Times the command has been used since release</dd>
+                </div>
+                <div class="tile">
+                    <h4>Most visits from</h4>
+                    <ol>
+                        <li>USA (46%)</li>
+                        <li>UK (12%)</li>
+                        <li>Canada (7%)</li>
+                        <li>Netherlands (5%)</li>
+                    </ol>
+                </div>
+                <div class="tile">
+                    <h4>Most used browsers</h4>
+                    <ol>
+                        <li>Chrome (61%)</li>
+                        <li>Safari (20%)</li>
+                        <li>Edge (5%)</li>
+                        <li>Firefox (5%)</li>
+                    </ol>
+                </div>
+            </dl>
+            <h3>Community</h3>
+            <p>Nothing on the wiki would have been possible without the contributions of our amazing community. We owe our success to the hundreds of players who have taken the time to upload an image, write a guide, or just fix a typo on a random article. We recognise the importance of our community with the following numbers.</p>
+            <dl class="stats community">
+                <div class="tile">
+                    <h4>Pages created</h4>
+                    <dt>5.7k</dt>
+                    <dd>Across all wikis over the last twelve months</dd>
+                </div>
+                <div class="tile">
+                    <h4>Images uploaded</h4>
+                    <dt>33.7k</dt>
+                    <dd>Across all wikis over the last twelve months</dd>
+                </div>
+                <div class="tile">
+                    <h4>Edits made</h4>
+                    <dt>625k</dt>
+                    <dd>Across all wikis over the last twelve months</dd>
+                </div>
+                <div class="tile">
+                    <h4>New editors</h4>
+                    <dt>4.3k</dt>
+                    <dd>New users who have edited at least once this year</dd>
+                </div>
+                <div class="tile">
+                    <h4>Active editors</h4>
+                    <dt>1.4k</dt>
+                    <dd>Users who have edited in the last thirty days</dd>
+                </div>
+                <div class="tile">
+                    <h4>Wikian titles given</h4>
+                    <dt>58</dt>
+                    <dd>Users awarded <a target="_blank" rel="noopener" href="https://runescape.wiki/w/RuneScape:The_Wikian">the title</a> over the last twelve months</dd>
+                </div>
+            </dl>
+        </div>
+    </section>
+    <section class="yir-section technical">
+        <div class="yir-container">
+            <h2 id="technical">Technical</h2>
+            <p>Behind the scenes, our technical team has been hard at work making the wikis faster and more robust.</p>
+            <h3>Article caching</h3>
+            <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Technical-1.png" data-srcset="images/thumbs/Technical-1@2x.png 2x" alt="A map of the wiki's Cloudflare network">
+            <p>The wikis have always used a content delivery network (CDN) to cache image assets geographically close to users, but until early 2019, all page views were being generated by our webservers in France. This was too slow, so in March we designed a way to cache wiki articles using the CDN, with about a 60% hit rate.</p>
+            <p>In July, we used brand-new database technology from Cloudflare to massively improve the caching, so now 94% of page views are loaded from a datacentre near the user. A few seconds after someone edits a wiki page, those changes propagate worldwide. This has made the average page load 2.5x faster than a year ago.</p>
+            <h3>We're serving less JavaScript!</h3>
+            <p>Over the years, wiki contributors have written nearly 50,000 lines of JS for calculators, price charts, quest checklists, and more. That's great, but it's way too much to ask users to load all at once!</p>
+            <p>We analyzed all the code and looked for ways to load as few modules as possible for each page. This reduced the average JS bundle by 75%, making page loads faster and smoother, especially on mobile.</p>
+        </div>
+    </section>
+    <section class="yir-section irl">
+        <div class="yir-container">
+            <h2 id="irl">Real-life meetups</h2>
+            <p>Though our editors are from all around the world, the wiki has brought us together as collaborators and friends. Last year, we met up around the time of RuneFest to work on the site and have a bit of vacation as well.</p>
+            <div class="irl-trip">
+                <div class="byline">September 2019</div>
+                <h3>Wikifest</h3>
+                <p>The week before RuneFest, 20 Wikians flew to Gran Canaria, a Spanish island you may recognise as the inspiration for the shape of the <a target="_blank" rel="noopener" href="https://oldschool.runescape.wiki/w/Granite_shield">granite shield</a>. Between updating the wiki and preparing for RuneFest, we also got to explore the island and experience a little bit of Spanish culture.</p>
+                <div class="irl-gallery">
+                    <a class="image-trigger" href="images/full/Wikifest-1@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-1.jpg" data-srcset="images/thumbs/Wikifest-1@2x.jpg 2x" alt="An alleyway in Puerto de Mogan">
+                    </a>
+                    <a class="image-trigger" href="images/full/Wikifest-2@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-2.jpg" data-srcset="images/thumbs/Wikifest-2@2x.jpg 2x" alt="Walking along the boardwalk at Maspalomas">
+                    </a>
+                    <a class="image-trigger" href="images/full/Wikifest-3@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-3.jpg" data-srcset="images/thumbs/Wikifest-3@2x.jpg 2x" alt="Hiking down to the coast of Gran Canaria">
+                    </a>
+                    <a class="image-trigger" href="images/full/Wikifest-4@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-4.jpg" data-srcset="images/thumbs/Wikifest-4@2x.jpg 2x" alt="Wikians at the beach at Maspalomas">
+                    </a>
+                    <a class="image-trigger" href="images/full/Wikifest-5@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-5.jpg" data-srcset="images/thumbs/Wikifest-5@2x.jpg 2x" alt="The streets of the Triana district in Las Palmas">
+                    </a>
+                    <a class="image-trigger" href="images/full/Wikifest-6@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/Wikifest-6.jpg" data-srcset="images/thumbs/Wikifest-6@2x.jpg 2x" alt="The streets of the Vegueta district in Las Palmas">
+                    </a>
+                </div>
+            </div>
+            <div class="irl-trip">
+                <div class="byline">October 2019</div>
+                <h3>RuneFest</h3>
+                <p><a target="_blank" rel="noopener" href="https://runescape.wiki/w/RuneFest_2019">RuneFest 2019</a> was held at Farnborough International Exhibition &amp; Conference Centre, and the wikis were given the opportunity to present a panel about major updates since the fork. We gave out limited edition wiki shirts to attendees and got to meet players who use the wiki every day. RuneFest was an incredible chance to chat with Jagex Moderators, which evolved into a number of collaborative projects like drop rates on the OSRS Wiki.</p>
+                <div class="irl-gallery">
+                    <a class="image-trigger" href="images/full/RuneFest-1@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-1.jpg" data-srcset="images/thumbs/RuneFest-1@2x.jpg 2x" alt="Setting up t-shirts for the Another Slice of W.I.K.I. panel">
+                    </a>
+                    <a class="image-trigger" href="images/full/RuneFest-2@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-2.jpg" data-srcset="images/thumbs/RuneFest-2@2x.jpg 2x" alt="Wikians and Mod Shauny presenting the panel">
+                    </a>
+                    <a class="image-trigger" href="images/full/RuneFest-3@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-3.jpg" data-srcset="images/thumbs/RuneFest-3@2x.jpg 2x" alt="Audience members not paying attention to the panel">
+                    </a>
+                    <a class="image-trigger" href="images/full/RuneFest-4@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-4.jpg" data-srcset="images/thumbs/RuneFest-4@2x.jpg 2x" alt="A group photo of editors of the RuneScape Wikis">
+                    </a>
+                    <a class="image-trigger" href="images/full/RuneFest-5@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-5.jpg" data-srcset="images/thumbs/RuneFest-5@2x.jpg 2x" alt="The volcano at the center of RuneFest 2019">
+                    </a>
+                    <a class="image-trigger" href="images/full/RuneFest-6@2x.jpg">
+                        <img class="thumb" src="images/Placeholder.png" data-src="images/thumbs/RuneFest-6.jpg" data-srcset="images/thumbs/RuneFest-6@2x.jpg 2x" alt="The main stage at the end of the day">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="yir-section">
+        <div class="yir-container">
+            <h2>Thank you!</h2>
+            <p>2019 has been an incredible experience and we are so grateful for the support you have given us since we launched the wikis. Nothing is more rewarding to us than the feedback the community provides, and we will keep improving the wiki experience in every way we can. Most importantly, don't be afraid to edit! If you're interested but don't know anything about editing, stop by <a target="_blank" rel="noopener" href="https://discord.gg/runescapewiki">our Discord server</a> and we can help you get started.</p>
+            <p>From all of us at Weird Gloop and all of our wikis, we sincerely thank you for your support and hope to see you throughout 2020!</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/views.min.js"></script>
+</body>
+
+</html>
