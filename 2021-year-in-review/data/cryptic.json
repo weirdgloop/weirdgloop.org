@@ -1,0 +1,317 @@
+[
+    {
+        "rs": [
+            {
+                "question": "Which tavern is found in Falador?",
+                "answers": {
+                    "a": "Blue Moon Inn",
+                    "b": "Pick and Lute",
+                    "c": "Rising Sun",
+                    "d": "Poison Arrow"
+                },
+                "correctAnswer": "c",
+                "explanation": "The Blue Moon Inn is found in Varrock, the Pick and Lute in Taverley, and the Poison Arrow in Ardougne."
+            },
+            {
+                "question": "Count Draynor, weakened after isolation from Morytania, is killed by the player during Vampyre Slayer. Which of the following was he related to?",
+                "answers": {
+                    "a": "Ruantun",
+                    "b": "Vanstrom Klause",
+                    "c": "Duke Horacio (on his mother's side)",
+                    "d": "Vanescula Drakan"
+                },
+                "correctAnswer": "d",
+                "explanation": "Draynor Drakan also had two brothers, <a class='link' href='https://runescape.wiki/w/Lowerniel_Drakan' target='_blank' rel='noopener'>Lowerniel</a> and <a class='link' href='https://runescape.wiki/w/Ranis_Drakan' target='_blank' rel='noopener'>Ranis Drakan</a>."
+            },
+            {
+                "question": "Which tree in RuneScape is a misspelling of a real-life tree?",
+                "answers": {
+                    "a": "Acadia tree",
+                    "b": "Sassafras tree",
+                    "c": "Eucalyptus tree",
+                    "d": "Dramen tree"
+                },
+                "correctAnswer": "a",
+                "explanation": "Acadia (instead of <a class='link' href='https://en.wikipedia.org/wiki/Vachellia_tortilis' target='_blank' rel='noopener'>acacia</a>) was a mistake that the developers decided to keep because they <a class='link' href='https://www.reddit.com/r/runescape/comments/6fgvda/acadia_trees/dii234m/' target='_blank' rel='noopener'>liked it better</a>."
+            },
+            {
+                "question": "The TzekHaar Front, led by TzKal-Zuk, is the fourth and final front of the Elder God Wars Dungeon. Which Elder God is it affiliated with?",
+                "answers": {
+                    "a": "Jas",
+                    "b": "Bik",
+                    "c": "Ful",
+                    "d": "Wen"
+                },
+                "correctAnswer": "c"
+            },
+            {
+                "question": "Not including the basement or the roof of the bank, how many floors are there in Lumbridge Castle?",
+                "answers": {
+                    "a": "Two",
+                    "b": "Three",
+                    "c": "Four",
+                    "d": "Five"
+                },
+                "correctAnswer": "b",
+                "explanation": "There are three floors to <a class='link' href='https://runescape.wiki/w/Reldo%27s_ages_seventeenth_edition' target='_blank' rel='noopener'>Lumbridge Castle</a>: the ground floor, with the kitchen and dining room; the first floor, with Duke Horacio's bedroom; and the roof, where the bank is located."
+            },
+            {
+                "question": "Of the four following towns, which one is furthest south?",
+                "answers": {
+                    "a": "Al Kharid",
+                    "b": "Brimhaven",
+                    "c": "Entrana",
+                    "d": "Yanille"
+                },
+                "correctAnswer": "d",
+                "explanation": "This question may have been tough to visualise. Here are the towns' locations on the world map:<img class='thumb' src='images/south-map.png' srcset='images/south-map@2x.png 2x' alt='Al Kharid, Brimhaven, Entrana, and Yanille labelled on the world map' />"
+            },
+            {
+                "question": "During which quest does Sigmund tie Zanik to the tracks of the Dorgesh-Kaan–Keldagrim train system?",
+                "answers": {
+                    "a": "Another Slice of H.A.M.",
+                    "b": "Death to the Dorgeshuun",
+                    "c": "Land of the Goblins",
+                    "d": "The Chosen Commander"
+                },
+                "correctAnswer": "a"
+            },
+            {
+                "question": "Raksha, the Shadow Colossus, is a boss monster imprisoned beneath Anachronia. Which of his combat mechanics is not shared with any other boss?",
+                "answers": {
+                    "a": "Minion spawning",
+                    "b": "Charge",
+                    "c": "Shadow pools",
+                    "d": "Falling rocks"
+                },
+                "correctAnswer": "c"
+            },
+            {
+                "question": "Which spell is used by non-player characters to teleport players to the rune essence mine?",
+                "answers": {
+                    "a": "Dominoes ad nauseum, romanes eunt domus",
+                    "b": "Senventior disthinte molesko",
+                    "c": "Senventior disthine molenko",
+                    "d": "Um nahi listic durooo-rah"
+                },
+                "correctAnswer": "c",
+                "explanation": "If you picked \"<a class='link' href='https://runescape.wiki/w/Senventior_Disthinte_Molesko' target='_blank' rel='noopener'>Senventior disthinte molesko</a>\", you were close, but that teleports players to the Sorceress's Garden."
+            },
+            {
+                "question": "The God Wars Dungeon, frozen for thousands of years, eventually thawed in the Fifth Age. Who rediscovered the temple and its combatants?",
+                "answers": {
+                    "a": "The Temple Knights",
+                    "b": "The White Knights",
+                    "c": "Orlando Smith",
+                    "d": "Drunken Dwarf"
+                },
+                "correctAnswer": "d",
+                "explanation": "<a class='link' href='https://runescape.wiki/w/Knight%27s_notes_(opened)' target='_blank' rel='noopener'>A letter</a> written by Sir Gerry, the knight who lies dying outside the entrance to the God Wars Dungeon, describes his efforts to \"investigate the dwarf's drunken claims\"."
+            }
+        ],
+        "osrs": [
+            {
+                "question": "Assuming you haven't completed Prince Ali Rescue, how much does it cost to pass through the toll gate between Lumbridge and Al Kharid?",
+                "answers": {
+                    "a": "5 coins",
+                    "b": "10 coins",
+                    "c": "15 coins",
+                    "d": "20 coins"
+                },
+                "correctAnswer": "b"
+            },
+            {
+                "question": "Which quest must be completed in order to wield a dragon sword?",
+                "answers": {
+                    "a": "Lost City",
+                    "b": "Monkey Madness I",
+                    "c": "Heroes' Quest",
+                    "d": "There is no quest requirement"
+                },
+                "correctAnswer": "d"
+            },
+            {
+                "question": "The Nightmare is currently found deep in the Sisterhood Sanctuary, but it is not her first home. Where is she originally from?",
+                "answers": {
+                    "a": "Kharazi Jungle",
+                    "b": "Catacombs of Kourend",
+                    "c": "Eastern Lands",
+                    "d": "Varrock"
+                },
+                "correctAnswer": "c",
+                "explanation": "The Nightmare was driven away from Ashihama, an island in the <a class='link' href='https://oldschool.runescape.wiki/w/Wushanko_Isles' target='_blank' rel='noopener'>Wushanko Isles</a>, and fled west until she reached Slepe. The Eastern Lands' influence is visible in the torii gates surrounding her arena."
+            },
+            {
+                "question": "Which of the following is not a variant of wyvern?",
+                "answers": {
+                    "a": "Taloned wyvern",
+                    "b": "Spitting wyvern",
+                    "c": "Venomous wyvern",
+                    "d": "Ancient wyvern"
+                },
+                "correctAnswer": "c"
+            },
+            {
+                "question": "The villagers of Slepe are afflicted with the sleeper plague until the player frees them during Sins of the Father. What was the cause of the plague?",
+                "answers": {
+                    "a": "A potion was mixed in with the town's local beer",
+                    "b": "The townspeople willingly put themselves to sleep",
+                    "c": "The Sisterhood contaminated the town's water supply",
+                    "d": "The cause is still unknown"
+                },
+                "correctAnswer": "a"
+            },
+            {
+                "question": "Trailblazer League was a temporary game mode where players chose regions to play in, starting with Misthalin. Of the nine regions, how many could a player access?",
+                "answers": {
+                    "a": "Four",
+                    "b": "Five",
+                    "c": "Six",
+                    "d": "Seven"
+                },
+                "correctAnswer": "b",
+                "explanation": "Players begin with Misthalin, can unlock Karamja for free, and then can choose three more out of Asgarnia, the Fremennik Isles, Kandarin, the Kharidian Desert, Morytania, Tirannwn, and the Wilderness."
+            },
+            {
+                "question": "Which island is furthest from Rellekka?",
+                "answers": {
+                    "a": "Miscellania",
+                    "b": "Jatizso",
+                    "c": "Neitiznot",
+                    "d": "Waterbirth Island"
+                },
+                "correctAnswer": "c",
+                "explanation": "This question may have been tough to visualise. Here are the islands' locations on the world map:<img class='thumb' src='images/rellekka-map.png' srcset='images/rellekka-map@2x.png 2x' alt='Rellekka, Miscellania, Jatizso, Neitiznot, and Waterbirth Island labelled on the world map' />"
+            },
+            {
+                "question": "Before the Hallowed Sepulchre fell during the God Wars, it was fortified with traps by Saradominist priests. Who were its defences meant to keep out?",
+                "answers": {
+                    "a": "Vampyres",
+                    "b": "Demons",
+                    "c": "Trolls",
+                    "d": "Gods"
+                },
+                "correctAnswer": "a",
+                "explanation": "The Hallowed Sepulchre is found beneath the former Saradominist kingdom of <a class='link' href='https://oldschool.runescape.wiki/w/Hallowvale' target='_blank' rel='noopener'>Hallowvale</a>, renamed <a class='link' href='https://oldschool.runescape.wiki/w/Morytania' target='_blank' rel='noopener'>Morytania</a> by the vampyres after their victory in the Third Age."
+            },
+            {
+                "question": "The Wise Old Man appears in all of the following quests except for which one?",
+                "answers": {
+                    "a": "Swan Song",
+                    "b": "Garden of Tranquillity",
+                    "c": "Making Friends with My Arm",
+                    "d": "One Small Favour"
+                },
+                "correctAnswer": "d"
+            },
+            {
+                "question": "The Armadyl crossbow is dropped by Commander Zilyana in the God Wars Dungeon. Why is she, and not one of Armadyl's followers, in possession of the crossbow?",
+                "answers": {
+                    "a": "Armadyl gifted it to her when they were still allies",
+                    "b": "It is a duplicate of the real crossbow, not the original",
+                    "c": "Saradomin crafted it specifically to defeat Armadyl",
+                    "d": "She stole it from Kree'arra during the God Wars"
+                },
+                "correctAnswer": "d"
+            }
+        ],
+        "rsc": [
+            {
+                "question": "Who was the first non-player character added to RuneScape Classic?",
+                "answers": {
+                    "a": "Black demon",
+                    "b": "Duke of Lumbridge",
+                    "c": "Hans",
+                    "d": "Speedy Keith"
+                },
+                "correctAnswer": "c",
+                "explanation": "<a class='link' href='https://classic.runescape.wiki/w/Hans' target='_blank' rel='noopener'>Hans</a> was released on 4 January 2001."
+            },
+            {
+                "question": "Sleeping bags were used to reduce fatigue, a mechanic that limited experience gain. How did players wake their characters from sleep?",
+                "answers": {
+                    "a": "Clicked the \"Wake\" button in the inventory",
+                    "b": "Right-clicked the character's sleeping bag",
+                    "c": "Typed a CAPTCHA into a text box",
+                    "d": "Pressed the Escape key"
+                },
+                "correctAnswer": "c",
+                "explanation": "<a class='link' href='https://classic.runescape.wiki/w/Fatigue' target='_blank' rel='noopener'>Fatigue</a> was intended to prevent botting, but the CAPTCHA could be circumvented and ended up only hindering legitimate players. It was replaced by <a class='link' href='https://runescape.wiki/w/Random_events' target='_blank' rel='noopener'>random events</a> in RuneScape 2."
+            },
+            {
+                "question": "Giles, Miles, and Niles were NPCs who exchanged types of items for certificates, a system later replaced by bank notes. In which town were they located?",
+                "answers": {
+                    "a": "Fishing Guild",
+                    "b": "Draynor Village",
+                    "c": "Brimhaven",
+                    "d": "Zanaris"
+                },
+                "correctAnswer": "b"
+            },
+            {
+                "question": "In what year were the RuneScape Classic servers shut down for the last time?",
+                "answers": {
+                    "a": "2007",
+                    "b": "2009",
+                    "c": "2016",
+                    "d": "2018"
+                },
+                "correctAnswer": "d",
+                "explanation": "It reopened several times after the transition to RuneScape 2, notably for the first time since shutdown in 2009, and for RuneScape's 15th anniversary in 2016. The servers <a class='link' href='https://secure.runescape.com/m=news/runescape-classic-farewell-1' target='_blank' rel='noopener'>closed for the final time</a> in 2018."
+            },
+            {
+                "question": "Which is the correct spelling of the final quest released in RuneScape Classic?",
+                "answers": {
+                    "a": "Legend Quest",
+                    "b": "Legend's Quest",
+                    "c": "Legends' Quest",
+                    "d": "Legends Quest"
+                },
+                "correctAnswer": "b",
+                "explanation": "You may have been thrown off by its current spelling in RuneScape and Old School RuneScape, \"<a class='link' href='https://runescape.wiki/w/Legends%27_Quest' target='_blank' rel='noopener'>Legends' Quest</a>\"."
+            },
+            {
+                "question": "Which unreleased rune, originally meant for a precursor to Summoning, was eventually added to RuneScape in a quest more than a decade later?",
+                "answers": {
+                    "a": "Time rune",
+                    "b": "Soul rune",
+                    "c": "Life rune",
+                    "d": "Cosmic rune"
+                },
+                "correctAnswer": "c",
+                "explanation": "<a class='link' href='https://classic.runescape.wiki/w/Life-Rune' target='_blank' rel='noopener'>Life runes</a> were planned to be used in Magic spells that summoned followers. They feature in <a class='link' href='https://runescape.wiki/w/Gower_Quest' target='_blank' rel='noopener'>Gower Quest</a>, released in 2016, where they are needed to create a cabbagespeak amulet."
+            },
+            {
+                "question": "Which quest must be completed in order to unlock the ability to wield a dragon sword?",
+                "answers": {
+                    "a": "Lost City",
+                    "b": "Legend's Quest",
+                    "c": "Hero's Quest",
+                    "d": "There is no quest requirement"
+                },
+                "correctAnswer": "a"
+            },
+            {
+                "question": "Which major area was never shown on an official world map, despite being accessible in-game?",
+                "answers": {
+                    "a": "Gu'tanoth",
+                    "b": "Prifddinas",
+                    "c": "Karamja",
+                    "d": "The Wilderness"
+                },
+                "correctAnswer": "d"
+            },
+            {
+                "question": "According to Saradomin, where does the meat used to make kebabs come from?",
+                "answers": {
+                    "a": "Goblins",
+                    "b": "Cows",
+                    "c": "Fairies",
+                    "d": "Speedy Keith"
+                },
+                "correctAnswer": "a",
+                "explanation": "In <a class='link' href='https://classic.runescape.wiki/w/God_letters:Issue_6_-_All_Hallow%27s_Eve' target='_blank' rel='noopener'>Issue 6</a> of the God letters, Saradomin says: <blockquote>...the kebab seller has to prepare them individually, so that you can always be sure of its freshness. Especially since goblin meat doesn't tend to keep too long.</blockquote>"
+            }
+        ]
+    }
+]
