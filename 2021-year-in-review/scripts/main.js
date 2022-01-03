@@ -812,14 +812,14 @@
             modal.addEventListener('click', closeModal, false);
             image.src = event.currentTarget.dataset[src];
 
-            document.body.style.overflow = 'hidden';
+            //document.body.style.overflow = 'hidden';
             document.body.appendChild(modalTemplate);
             document.addEventListener('keydown', escToClose, false);
         }
 
         function closeModal() {
             get('.modal').remove();
-            document.body.removeAttribute('style'); // unset overflow: hidden
+            //document.body.removeAttribute('style'); // unset overflow: hidden
             document.removeEventListener('keydown', escToClose, false);
         }
 
