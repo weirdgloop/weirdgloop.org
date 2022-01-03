@@ -217,15 +217,15 @@
         ],
         "rsc": [
             {
-                "question": "Who was the first non-player character added to RuneScape Classic?",
+                "question": "Where was the first bank in RuneScape Classic located?",
                 "answers": {
-                    "a": "Black demon",
-                    "b": "Duke of Lumbridge",
-                    "c": "Hans",
-                    "d": "Speedy Keith"
+                    "a": "Varrock East",
+                    "b": "Varrock West",
+                    "c": "Al Kharid",
+                    "d": "Lumbridge"
                 },
-                "correctAnswer": "c",
-                "explanation": "<a class='link' href='https://classic.runescape.wiki/w/Hans' target='_blank' rel='noopener'>Hans</a> was released on 4 January 2001."
+                "correctAnswer": "b",
+                "explanation": "<a class='link' href='https://classic.runescape.wiki/w/Varrock' target='_blank' rel='noopener'>Varrock West Bank</a> was released on 23 January 2001. Varrock East Bank and Al Kharid Bank came later, and Lumbridge didn't have a bank at all in RuneScape Classic; it only received one with the 2006 release of Recipe for Disaster in RuneScape 2."
             },
             {
                 "question": "Sleeping bags were used to reduce fatigue, a mechanic that limited experience gain. How did players wake their characters from sleep?",
@@ -294,10 +294,10 @@
             {
                 "question": "Which major area was never shown on an official world map, despite being accessible in-game?",
                 "answers": {
-                    "a": "Gu'tanoth",
+                    "a": "Tai Bwo Wannai",
                     "b": "Prifddinas",
                     "c": "Karamja",
-                    "d": "The Wilderness"
+                    "d": "Gu'tanoth"
                 },
                 "correctAnswer": "d"
             },
