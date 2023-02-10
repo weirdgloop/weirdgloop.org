@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms
+description: The Terms of Use governing all Weird Gloop websites and wikis.
 permalink: /terms/
 ---
 

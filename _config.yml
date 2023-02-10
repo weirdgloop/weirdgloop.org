@@ -1,7 +1,7 @@
 title: Weird Gloop
 email: support@weirdgloop.org
 description: > # this means to ignore newlines until "baseurl:"
-  Helping you make adventures happen.
+  We are Weird Gloop - the company that runs and maintains the official RuneScape and OSRS Wikis.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weirdgloop.org" # the base hostname & protocol for your site, e.g. http://example.com
 
