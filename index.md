@@ -15,6 +15,18 @@ layout: default
         </a>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm">
+        <a class="project" id="project-rsc" href="https://classic.runescape.wiki/" data-toggle="tooltip" data-placement="top" title="RuneScape Classic Wiki" >
+            <div class="logo"></div>
+        </a>
+    </div>
+    <div class="col-sm">
+        <a class="project" id="project-ptrs" href="https://pt.runescape.wiki/" data-toggle="tooltip" data-placement="top" title="Brazilian Portuguese RuneScape Wiki">
+            <div class="logo"></div>
+        </a>
+    </div>
+  </div>
 </div>
 
 <div id="posts">
