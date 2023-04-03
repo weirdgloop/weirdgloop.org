@@ -7,7 +7,7 @@ permalink: /privacy/
 
 # Privacy
 
-> *Last modified:* 10 February 2023
+> *Last modified:* 3 April 2023
 
 We're committed to protecting the privacy of all of our users across our network, whether you are a reader or a contributor. As a result, we have a transparent, straight-forward privacy policy. By using any of the sites we operate, you are agreeing to our privacy policy and use of cookies.
 
@@ -44,24 +44,5 @@ This policy applies when viewing pages on any of our sites and using our service
 ### Storage duration
 We keep any identifiable information we have for the shortest possible time, in accordance with law. Non-private information, such as contributions to the site, may be kept indefinitely subject to our [licensing](/licensing).
 
-### For users in California
-California residents have the right to request information on the personal information we disclose to other organisations for the direct marketing purposes of those organisations. We want to let you know that Weird Gloop does not share your personal information with unaffiliated organisations for their own direct marketing purposes.
-
-California residents also have the following rights regarding the personal information we collect about you:
-
-* the right to know what personal information we have collected about you, and the purpose for which it was collected;
-* the right to request that we delete any personal information we have collected from you (subject to certain exceptions, as outlined in the CCPA);
-* the right to opt-out of the sale of your personal information; and
-* the right to non- discrimination for exercising your rights. 
-
-For the avoidance of doubt, we do not sell your personal information. If we did, California residents would have the right to opt out of the sale of your personal information, pursuant to the rights granted above.
-
-If at any time you wish to opt out of having your personal information shared with third parties and/or receiving information from Weird Gloop, please contact us! We will be happy to honour your request.
-
-#### California Privacy Rights for Minor Users
-
-California residents under the age of 18 have the right to view, correct, or delete personal information provided by you or publicly posted by you. You can file your request by contacting us!
-
-We will be happy to review, update or remove personal information and/or content. After removal, it can happen that residual copies of personal information and/or content may remain in our backup systems. But we will always try to permanently remove your personal information.
-
-We may still keep your personal information to resolve disputes, enforce our user agreement, or comply with legal requirements. In this case, your personal information will be blocked from use for any other purpose.
+<script async src="//cdn.intergient.com/ramp_core.js"></script>
+<script type="text/javascript">let optOutCounter = 0; function setCookie(cname,cvalue,exdays){var d = new Date();d.setTime(d.getTime()+(exdays*24*60*60*1000));var expires='expires='+d.toUTCString();document.cookie=cname+'='+cvalue+';'+expires+';path=/'; if(optOutCounter==0){ let cookieP = document.getElementById('cookieP'); var successCookie = document.createElement('h3'); successCookie.innerHTML = 'Optout Success!'; successCookie.setAttribute('style','color:green'); cookieP.appendChild(successCookie); optOutCounter ++ } };</script> <h3>Common ID Cookie</h3> <p id="cookieP">This site uses cookies and similar tracking technologies such as the Common ID cookie to provide its services. Cookies are important devices for measuring advertising effectiveness and ensuring a robust online advertising industry. The Common ID cookie stores a unique user id in the first party domain and is accessible to our ad partners. This simple ID that can be utilized to improve user matching, especially for delivering ads to iOS and MacOS browsers. Users can opt out of the Common ID tracking cookie by clicking <a onclick="window.setCookie('_pubcid_optout', '1', 1825);" href="#opt-out">here</a>.</p> <h3>Advertising Privacy Settings</h3> <p>FOR EU USERS ONLY: When you use our site, pre-selected companies may access and use certain information on your device and about your interests to serve ads or personalized content. You may revisit or change consent-choices at any time by clicking <a href="#tcfapi" onclick="if(window.__tcfapi === undefined){console.warn('User is not in the EU - Consent Choices can only be configured when User is in the EU')}else{ramp.showCmpModal()}" >here</a>.</p>

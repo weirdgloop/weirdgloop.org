@@ -4,5 +4,11 @@ This repository contains the source code that is used to build the Weird Gloop [
 
 Commits pushed to the `master` branch are deployed using GitHub Pages, available at https://weirdgloop.org.
 
+### How to run locally
+
+1. Install Jekyll and its prerequisites ([see here](https://jekyllrb.com/docs/installation/))
+2. Run `bundle install` to install dependencies
+3. Run `bundle exec jekyll serve` to run the site locally
+
 ## License
 This repo uses GNU GPLv3, see [this file](LICENSE).
