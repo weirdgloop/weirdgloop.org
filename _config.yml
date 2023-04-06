@@ -25,3 +25,5 @@ exclude:
   - vendor
   - scripts
   - node_modules
+include:
+  - ads.txt
