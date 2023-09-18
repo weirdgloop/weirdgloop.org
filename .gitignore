@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 node_modules/
 yarn.lock
+.idea/
+.jekyll-cache/
+.DS_Store
