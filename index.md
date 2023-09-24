@@ -27,6 +27,13 @@ layout: default
         </a>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm">
+        <a class="project" id="project-mc" href="https://minecraft.wiki/" data-toggle="tooltip" data-placement="top" title="Minecraft Wiki" >
+            <div class="logo"></div>
+        </a>
+    </div>
+  </div>
 </div>
 
 <div id="posts">
