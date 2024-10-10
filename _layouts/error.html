@@ -7,23 +7,32 @@
 
     {% seo %}
 
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
-    <style>
-      body {
-        background: #141E30;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-      }
-    </style>
 </head>
 
 <body>
-  <div class="error-container">
-    <div class="error-page">
-      {{ content }}
+<div class="outer-container">
+    <header>
+        <div style="margin: 1em 0;">
+            {{ page.logo }}
+        </div>
+    </header>
+
+    <div class="inner-container">
+        <div style="margin: auto; gap: 1em; justify-content: center;">
+            {{ content }}
+        </div>
     </div>
-  </div>
+
+    <footer>
+        ::CLIENT_IP:: · ::RAY_ID::
+    </footer>
+</div>
+
+<script type="application/javascript">
+    document.querySelectorAll('.links a[href="' + window.location.pathname + '"]').forEach(link => link.className += 'current-page');
+</script>
 </body>
 
 </html>

@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<h2>{{page.title}}</h2>
+<div class="blog-post">
+    <span><a href="/blog/">&larr; Blog</a></span>
+    <h1>{{page.title}}</h1>
 
-<p><em>{{ page.date | date: "%-d %B %Y" }}</em>, <span class="author">by {{ page.author }}</span></p>
+    <p class="blog-subtitle">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} &#183; <span class="author">{{ page.author }}</span>{% endif %}</p>
 
-{% if page.image %}
-<p class="text-center"><img src="/images/posts/{{page.image}}" class="img-fluid" alt="image"></p>
-{% endif %}
+    <div class="blog-content">
+        {% if page.featured_image %}
+        <div class="text-center" style="max-width: 500px; height: auto; margin: auto auto 1em;"><img src="/images/posts/{{page.featured_image}}" alt="image" /></div>
+        {% endif %}
 
-<hr>
-
-{{ content }}
+        {{ content }}
+    </div>
+</div>

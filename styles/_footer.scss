@@ -1,0 +1,31 @@
+footer {
+  background: $secondary-dark;
+  border-top: 2px solid $secondary-dark-border;
+  color: #414141;
+  font-size: .85em;
+
+  text-align: center;
+  padding: 1em 0;
+
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    a {
+      color: #868686;
+      padding: 0 .5em;
+      transition: transform .25s ease;
+
+      &:hover {
+        color: $accent;
+        text-decoration: none;
+        transform: scale(1.05);
+      }
+
+      &.current-page {
+        color: $accent;
+      }
+    }
+  }
+}

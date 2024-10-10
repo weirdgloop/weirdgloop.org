@@ -51,6 +51,9 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-target-blank (2.0.2)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -65,6 +68,8 @@ GEM
     mini_portile2 (2.8.6)
     nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.16.5-x64-mingw32)
       racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
@@ -104,6 +109,7 @@ DEPENDENCIES
   jekyll (= 4.3.2)
   jekyll-feed (~> 0.6)
   jekyll-seo-tag
+  jekyll-target-blank
   webrick (~> 1.8)
 
 RUBY VERSION

@@ -1,0 +1,210 @@
+#projects {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  font-size: .8em;
+  text-align: center;
+  color: #a6a6a6;
+}
+
+.project p {
+  margin: 5px 0 0 0;
+}
+
+.project a {
+  height: 135px;
+  width: 135px;
+  box-shadow: $shadow;
+  transition: 0.3s ease;
+  display: flex;
+  border-radius: 20px;
+}
+
+.project a:hover {
+  text-decoration: none;
+  filter: brightness(110%);
+}
+
+.project a .logo {
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px 120px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25));
+}
+
+.project a .text {
+  flex: 2;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: auto 2em auto 0;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.project a .name {
+  font-size: 1.4em;
+  margin: .35em 0;
+}
+
+.project a .description {
+  font-size: .85em;
+  margin: 0;
+}
+
+#project-rs {
+  background: #46869b;
+}
+
+#project-rs .logo {
+  background-image: url('../images/RuneScape-Wiki-logo.png');
+}
+
+#project-osrs {
+  background: #5e5247;
+}
+
+#project-osrs .logo {
+  background-image: url('../images/Old-School-RuneScape-Wiki-logo.png');
+}
+
+#project-rsc {
+  background: #153e13;
+}
+
+#project-rsc .logo {
+  background-image: url('../images/RuneScape-Classic-Wiki-logo.png');
+}
+
+#project-mc {
+  background: #5d8855;
+}
+
+#project-mc .logo {
+  background-image: url('../images/Minecraft Wiki logo.png');
+}
+
+#project-lol {
+  background: #3875a6;
+}
+
+#project-lol .logo {
+  background-image: url('../images/League of Legends Wiki logo.png');
+  background-size: 110px auto;
+}
+
+#project-bs {
+  background: #63514b;
+}
+
+#project-bs .logo {
+  background-image: url('../images/Brighter Shores Wiki logo.png');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  #project-rs .logo {
+    background-image: url('../images/RuneScape-Wiki-logo@2x.png');
+  }
+
+  #project-osrs .logo {
+    background-image: url('../images/Old-School-RuneScape-Wiki-logo@2x.png');
+  }
+
+  #project-rsc .logo {
+    background-image: url('../images/RuneScape-Classic-Wiki-logo@2x.png');
+  }
+
+  #project-ptrs .logo {
+    background-image: url('../images/Pt-BR-RuneScape-Wiki-logo@2x.png');
+  }
+
+  #project-mc .logo {
+    background-image: url('../images/Minecraft Wiki logo@2x.png');
+  }
+
+  #project-lol .logo {
+    background-image: url('../images/League of Legends Wiki logo@2x.png');
+  }
+
+  #project-bs .logo {
+    background-image: url('../images/Brighter Shores Wiki logo@2x.png');
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+  .project a {
+    padding: 0 .15em;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  #projects {
+    align-items: normal;
+  }
+}
+
+.post-col {
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-size: .7em;
+    font-weight: normal;
+  }
+
+  a {
+    transition: all .2s ease;
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid $secondary-border;
+      text-decoration: none;
+    }
+  }
+}
+
+.row.home-row {
+  flex-wrap: unset;
+
+  &::before {
+    content: "";
+    border: 1px solid $secondary-dark-border;
+  }
+
+  #projects {
+    order: -1;
+  }
+
+  .blog-container {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+
+  @media only screen and (max-width: 985px) {
+    .blog-container {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home-row {
+    flex-direction: column;
+  }
+}
+
+.discord {
+  color: #8E97F8;
+
+  img {
+    width: 15px;
+  }
+}

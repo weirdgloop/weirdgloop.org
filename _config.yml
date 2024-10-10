@@ -1,12 +1,41 @@
 title: Weird Gloop
 email: support@weirdgloop.org
 description: > # this means to ignore newlines until "baseurl:"
-  We are Weird Gloop - the company that runs and maintains the official RuneScape and OSRS Wikis.
+  MediaWiki host for official and independent wikis
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weirdgloop.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 google-site-verification: edJRgAhGidylXbXZu05J3aRBcd45ICOap3iqyossp00
 lang: en_GB
+
+permalink: pretty
+
+collections:
+  posts:
+    permalink: '/blog/:title'
+
+twitter:
+  username: weirdgloop
+  card: summary
+
+logo: '/images/Weird Gloop square logo.png'
+
+social:
+  links:
+    - https://x.com/weirdgloop.org
+    - https://github.com/weirdgloop
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: 'default'
+      image: '/images/Weird Gloop square logo.png'
+  - scope:
+      path: 'pages/errors/*'
+    values:
+      layout: 'error'
+      logo: '<img src="/images/Weird-Gloop-logo.png" alt="Weird Gloop" width="200px">'
 
 sass:
   load_paths:
@@ -27,3 +56,5 @@ exclude:
   - node_modules
 include:
   - ads.txt
+plugins:
+  - jekyll-target-blank

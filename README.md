@@ -10,5 +10,9 @@ Commits pushed to the `master` branch are deployed using GitHub Pages, available
 2. Run `bundle install` to install dependencies
 3. Run `bundle exec jekyll serve` to run the site locally
 
+### How to build
+
+1. Run `bundle exec jekyll build --url "https://weirdgloop.org/"`
+
 ## License
 This repo uses GNU GPLv3, see [this file](LICENSE).
