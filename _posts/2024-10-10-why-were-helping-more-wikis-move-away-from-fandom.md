@@ -36,17 +36,19 @@ We weren’t the only ones feeling this way, of course – some wiki communities
 
 Historically, independent wikis have had an extremely hard time winning this battle. Most of the traffic stayed on the Fandom wiki, and the independent wikis often fizzled out. This had a chilling effect on the remaining communities, and emboldened Fandom to further prioritize revenue extraction.
 
-That’s the key takeaway: **if leaving Fandom was easy, they wouldn’t be able to enshittify as much as they have**. But don’t lose hope! Google has gotten much friendlier to independent wikis over the last decade. With a large, sustained effort, we were able to recover 95% of RuneScape Wiki traffic within the first year.
+That’s the key takeaway: **if leaving Fandom was easy, they wouldn’t be able to enshittify as much as they have**.
+
+But don’t lose hope! Google has gotten much friendlier to independent wikis over the last decade. With a large, sustained effort, we were able to recover 95% of RuneScape Wiki traffic within the first year.
 
 ## Why ditching Fandom is cool and based
 
 The main advantage of leaving Fandom is likely clear to anyone who’s ever visited one of their wikis without an ad blocker. But there’s more than that! When you have a site that people are happy to go to (instead of something they’re forced to grimace and use), you get all these wonderful secondary effects that are worth mentioning.
 
-For starters: on average, moving away from Fandom doubles the number of people editing. I’ve seen pattern across every wiki we’ve ever moved off Fandom, but here’s a pretty striking graph from OSRS Wiki:
+For starters: on average, moving away from Fandom doubles the number of people editing. I’ve seen the pattern across every wiki we’ve ever moved off Fandom, but here’s a pretty striking graph from OSRS Wiki:
 
 ![Graph of OSRS editors by editcount per month](/images/posts/osrs-edit-count.png){:width="650"}{:style="display: block; margin: auto;"}
 
-incredibly consistent: way more people show up and want to help, when they feel like they’re contributing to something that isn’t taking advantage of them.
+It's incredibly consistent: way more people show up and want to help, when they feel like they’re contributing to something that isn’t taking advantage of them.
 
 It’s not a coincidence that OSRS Wiki got really good once we left Fandom in 2018. Once we had way more people wanting to contribute (and the only objective was “make the best possible wiki for the game”) the wiki magically got way better! Crazy!
 
@@ -76,7 +78,7 @@ You can probably tell that I think wiki editors (as opposed to hosts) are the on
 
 **If a wiki community is unhappy, and they have a better option somewhere else, they should be able to leave and take their stuff with them**. We won’t prop up the old wiki, Weekend-at-Bernie’s style, abusing the dominant Google position that the wiki editors built up while they were on our platform.
 
-In my opinion, this is really the only rule that matters. If you have the ability to leave (and take your revenue-driving wiki with you) when things go to shit, then your host has an extremely strong incentive to not let things completely go to shit.
+In my opinion, *this is really the only rule that matters*. If you have the ability to leave (and take your revenue-driving wiki with you) when things go to shit, then your host has an extremely strong incentive to not let things completely go to shit.
 
 There’s a long history of wiki farms vaguely handwaving that they’d agree to something like this, and then backtracking later. So why believe us?
 
@@ -88,7 +90,7 @@ If you go to any page on a Fandom wiki, even if you’ve got an ad blocker…you
 
 It’s easy to laugh about how bad the branding and identity is, but there’s a bigger issue: the fact that it’s so overwhelmingly branded as “Fandom” (as opposed to, say, the Warframe Wiki) makes it way harder for each of the individual wikis to develop an public identity, because anything they do will be subordinate to the (very loud) global brand. These individual wikis are the only popular thing that Fandom has ever operated, **and the focus on global branding makes each individual wiki worse**.
 
-Our position: the actual wikis should be front and center, because it’s way more important for the wiki itself to have a great reputation, rather than sucking all the oxygen out and making sure people know who owns the platform. We have extremely minimal branding ([can you even find it?](https://minecraft.wiki/)), and I can’t imagine ever trying to put wikis on subdomains of weirdgloop.org (or anywhere else) unless there were no decent domain options. We don’t actually get anything out of everyday readers knowing who we are.
+Our position: the actual wikis should be front and center, because it’s way more important for the wiki itself to have a great reputation, rather than sucking all the oxygen out to make sure people know who owns the platform. We have extremely minimal branding ([can you even find it?](https://minecraft.wiki/)), and I can’t imagine ever trying to put wikis on subdomains of weirdgloop.org (or anywhere else) unless there were no decent domain options. We don’t actually get anything out of everyday readers knowing who we are.
 
 ---
 
