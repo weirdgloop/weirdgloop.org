@@ -24,7 +24,7 @@ If you think this sounds cool, [come talk to me](/contact).
 
 ## Why do we actually care?
 
-[This post](https://j3s.sh/thought/stop-using-fandom.html) (and many others) have done a much better job than I could, explaining from a reader’s perspective why Fandom is bad place to host a wiki, but I thought it might be useful to give my take on it as a long-time wiki editor.
+[This post](https://archive.ph/kwt1b) (and many others) have done a much better job than I could, explaining from a reader’s perspective why Fandom is bad place to host a wiki, but I thought it might be useful to give my take on it as a long-time wiki editor.
 
 I love wikis. I think it’s unbelievably cool that this completely insane idea (“what if we just had a website that anyone can edit?”) doesn’t descend into anarchy, and instead self-organizes into a fun, project-oriented community. I think that despite its flaws, Wikipedia is the single coolest thing the internet has ever done. And wikis on niche topics feel like some of the last remnants of a friendlier, more collaborative, early 2000s web. I loved contributing to wikis, building something with other people, and feeling a sense of ownership (and pride that so many people were using stuff I made).
 
