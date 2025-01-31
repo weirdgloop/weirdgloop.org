@@ -37,6 +37,12 @@ layout: default
                 </a>
                 <p>League of Legends</p>
             </div>
+            <div class="project">
+                <a id="project-wf" href="https://wiki.warframe.com/" >
+                    <div class="logo"></div>
+                </a>
+                <p>Warframe</p>
+            </div>
         </div>
     </div>
     <div class="blog-container">
