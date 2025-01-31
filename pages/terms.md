@@ -10,9 +10,9 @@ permalink: /terms/
 * 
 {:toc}
 
-<span class="badge">Updated on 20 September 2017</span>
+<span class="badge">Updated on 31 January 2025</span>
 
-Weird Gloop Ltd. (the "Company") operate a number of websites and services (collectively known as the "Sites"). By accessing or using the Sites, you indicate that you have read and agree to these Terms of Use (the "Agreement"). We may change, modify, delete, or add parts of this Agreement at any time without notification.
+Weird Gloop USA, Inc. (the "Company") operate a number of websites and services (collectively known as the "Sites"). By accessing or using the Sites, you indicate that you have read and agree to these Terms of Use (the "Agreement"). We may change, modify, delete, or add parts of this Agreement at any time without notification.
 
 This Agreement applies to anyone that uses our Sites, regardless of if you are a registered or unregistered user. In order to use our Sites, you must accept this Agreement, by either registering for a new account on our Sites or continuing to use the Sites. By agreeing to these Terms, you confirm that you are of a legal age, or have parental/legal guardian consent, to enter a binding contract with the Company, and comply with the terms in this Agreement.
 
