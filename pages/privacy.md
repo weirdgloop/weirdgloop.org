@@ -76,7 +76,7 @@ We use a variety of physical and technical measures, policies, and procedures to
 In the event of a data breach, we will promptly inform any affected users either through private communications or a public notice, as well as any relevant authorities.
 
 ### Data Retention
-We keep any identifiable information we have for the shortest possible time, in accordance with law. Most identifiable information, such as private information attached to edits, is deleted after 90 days unless specifically needed for legal or security concerns. Non-private information, such as contributions to the site, may be kept indefinitely subject to our [licensing](https://meta.weirdgloop.org/w/Meta:Copyrights).
+We keep any identifiable information we have for the shortest possible time, in accordance with law. Most identifiable information, such as private information attached to edits, is deleted after 90 days unless specifically needed for legal or security concerns. Non-private information, such as contributions to the site, may be kept indefinitely subject to our [licensing](https://meta.weirdgloop.org/w/Licensing).
 
 ## Your Rights
 Weird Gloop aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your personal information and data. If you wish to be informed what information we hold about you and if you want it to be removed from our systems, please contact us. In certain circumstances, you have the following data protection rights:

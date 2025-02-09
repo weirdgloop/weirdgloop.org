@@ -40,7 +40,7 @@ We also do not allow certain activities on any of our Sites, including but not l
     * Attempting to solicit personal information from users that are under the age of 18
 * **Infringement**
     * Attempting to use, publish, or upload content that you do not own the rights for, or are not authorised to use
-    * Attempting to use our content in a way that does not adhere to our [licenses](https://meta.weirdgloop.org/w/Meta:Copyrights)
+    * Attempting to use our content in a way that does not adhere to our [licenses](https://meta.weirdgloop.org/w/Licensing)
     * Infringing on any trademarks, patents, or proprietary rights
 * **Misusing our services**
     * Using our Sites for any illegal activity under applicable law
@@ -63,7 +63,7 @@ Users that perform actions on our Sites, such as adding content, on behalf of an
 * a statement attributed to any contributions you make, such as on public summaries of your contributions
 
 ## Contributions
-You are solely responsible for any contributions you make to any of our Sites, including but not limited to images, text, comments, messages, profile information, and any other content that you may publish or transmit on or using our services. Any content that is not compatible with our [licenses](https://meta.weirdgloop.org/w/Meta:Copyrights) or content that you do not have permission to use should not be submitted or published on our Sites. You understand that by submitting content, other users may edit, remove, or improve the content you submitted under the terms of our licenses.
+You are solely responsible for any contributions you make to any of our Sites, including but not limited to images, text, comments, messages, profile information, and any other content that you may publish or transmit on or using our services. Any content that is not compatible with our [licenses](https://meta.weirdgloop.org/w/Licensing) or content that you do not have permission to use should not be submitted or published on our Sites. You understand that by submitting content, other users may edit, remove, or improve the content you submitted under the terms of our licenses.
 
 Our Sites do not function as an archive, and therefore your content may be removed and deleted from our servers at any time. You are solely responsible for ensuring that you keep copies of any content that you publish or upload to any of our Sites.
 
