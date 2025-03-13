@@ -4,45 +4,47 @@ layout: default
 
 <div class="row home-row">
     <div id="projects">
-        <div class="row" style="gap: 1em;">
-            <div class="project">
-                <a id="project-rs" href="https://runescape.wiki/" >
-                    <div class="logo"></div>
-                </a>
-                <p>RuneScape</p>
-            </div>
-            <div class="project">
-                <a id="project-osrs" href="https://oldschool.runescape.wiki/">
-                    <div class="logo"></div>
-                </a>
-                <p>Old School RuneScape</p>
-            </div>
-            <div class="project">
-                <a id="project-rsc" href="https://classic.runescape.wiki/" >
-                    <div class="logo"></div>
-                </a>
-                <p>RuneScape Classic</p>
-            </div>
+        <div class="project">
+            <a id="project-rs" href="https://runescape.wiki/" >
+                <div class="logo"></div>
+            </a>
+            <p>RuneScape</p>
         </div>
-        <div class="row" style="gap: 1em; margin-top: 1em;">
-            <div class="project">
-                <a id="project-mc" href="https://minecraft.wiki/" >
-                    <div class="logo"></div>
-                </a>
-                <p>Minecraft</p>
-            </div>
-            <div class="project">
-                <a id="project-lol" href="https://wiki.leagueoflegends.com/en-us/" >
-                    <div class="logo"></div>
-                </a>
-                <p>League of Legends</p>
-            </div>
-            <div class="project">
-                <a id="project-wf" href="https://wiki.warframe.com/" >
-                    <div class="logo"></div>
-                </a>
-                <p>Warframe</p>
-            </div>
+        <div class="project">
+            <a id="project-osrs" href="https://oldschool.runescape.wiki/">
+                <div class="logo"></div>
+            </a>
+            <p>Old School RuneScape</p>
+        </div>
+        <div class="project">
+            <a id="project-rsc" href="https://classic.runescape.wiki/" >
+                <div class="logo"></div>
+            </a>
+            <p>RuneScape Classic</p>
+        </div>
+        <div class="project">
+            <a id="project-mc" href="https://minecraft.wiki/" >
+                <div class="logo"></div>
+            </a>
+            <p>Minecraft</p>
+        </div>
+        <div class="project">
+            <a id="project-lol" href="https://wiki.leagueoflegends.com/en-us/" >
+                <div class="logo"></div>
+            </a>
+            <p>League of Legends</p>
+        </div>
+        <div class="project">
+            <a id="project-wf" href="https://wiki.warframe.com/" >
+                <div class="logo"></div>
+            </a>
+            <p>Warframe</p>
+        </div>
+        <div class="project">
+            <a id="project-vs" href="https://vampire.survivors.wiki/" >
+                <div class="logo"></div>
+            </a>
+            <p>Vampire Survivors</p>
         </div>
     </div>
     <div class="blog-container">

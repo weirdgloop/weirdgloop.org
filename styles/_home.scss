@@ -1,12 +1,14 @@
 #projects {
-  flex-grow: 1;
   display: flex;
-  flex-direction: column;
+  gap: 1em;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: calc((135px + 1em) * 3);
 }
 
 .project {
+  flex-basis: 135px;
   font-size: .8em;
   text-align: center;
   color: #a6a6a6;
@@ -107,12 +109,13 @@
   background-size: 110px auto;
 }
 
-#project-bs {
-  background: #63514b;
+#project-vs {
+  background: #443621;
 }
 
-#project-bs .logo {
-  background-image: url('../images/Brighter Shores Wiki logo.png');
+#project-vs .logo {
+  background-image: url('../images/Vampire Survivors Wiki logo.png');
+  background-size: 110px auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
