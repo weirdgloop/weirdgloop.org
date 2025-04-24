@@ -2,7 +2,6 @@
   display: flex;
   gap: 1em;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   max-width: calc((135px + 1em) * 3);
 }
@@ -15,7 +14,8 @@
 }
 
 .project p {
-  margin: 5px 0 0 0;
+  margin: 8px 0 0 0;
+  line-height: 1.25em;
 }
 
 .project a {
@@ -118,6 +118,16 @@
   background-size: 110px auto;
 }
 
+#project-rsdw {
+  background: #614526;
+}
+
+#project-rsdw .logo {
+  background-image: url('../images/RuneScape Dragonwilds Wiki logo.png');
+  background-size: 120px auto;
+}
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
   #project-rs .logo {
     background-image: url('../images/RuneScape-Wiki-logo@2x.png');
@@ -141,10 +151,6 @@
 
   #project-lol .logo {
     background-image: url('../images/League of Legends Wiki logo@2x.png');
-  }
-
-  #project-bs .logo {
-    background-image: url('../images/Brighter Shores Wiki logo@2x.png');
   }
 }
 

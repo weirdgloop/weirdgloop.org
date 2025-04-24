@@ -22,6 +22,12 @@ layout: default
             </a>
             <p>RuneScape Classic</p>
         </div>
+        <!--<div class="project">
+            <a id="project-rsdw" href="https://dragonwilds.runescape.wiki/" >
+                <div class="logo"></div>
+            </a>
+            <p>RuneScape: Dragonwilds</p>
+        </div>-->
         <div class="project">
             <a id="project-mc" href="https://minecraft.wiki/" >
                 <div class="logo"></div>
