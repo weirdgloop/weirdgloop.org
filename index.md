@@ -52,6 +52,12 @@ layout: default
             </a>
             <p>Vampire Survivors</p>
         </div>
+        <div class="project">
+            <a id="project-balatro" href="https://balatrowiki.org/" >
+                <div class="logo"></div>
+            </a>
+            <p>Balatro</p>
+        </div>
     </div>
     <div class="blog-container">
         <div style="display: flex; align-items: center; margin-bottom: 1em; gap: 1em; justify-content: space-between">
