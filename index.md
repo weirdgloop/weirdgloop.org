@@ -58,6 +58,12 @@ layout: default
             </a>
             <p>Balatro</p>
         </div>
+        <div class="project">
+            <a id="project-smite2" href="https://wiki.smite2.com/" >
+                <div class="logo"></div>
+            </a>
+            <p>Smite 2</p>
+        </div>
     </div>
     <div class="blog-container">
         <div style="display: flex; align-items: center; margin-bottom: 1em; gap: 1em; justify-content: space-between">
