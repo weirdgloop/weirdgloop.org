@@ -37,12 +37,13 @@ b, strong {
   min-height: 100vh;
 }
 
-.inner-container {
-  flex-grow: 1;
-  display: flex;
+.inner-container.fixed-width {
   padding: 2em;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -62,21 +63,15 @@ hr {
 
 h1 {
   color: #afafaf;
-}
-
-h2, h3, h4, h5, h6 {
-  color: #e4baa5;
-}
-
-h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
-}
-
-h1 {
   font-weight: 600;
   font-size: 1.8em;
   display: flex;
   line-height: 1.2em;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #e4baa5;
+  margin-top: 1.5em;
 }
 
 p {
@@ -110,20 +105,37 @@ h3 {
 .card {
   display: block;
   background: darken($secondary, 5%);
+  border: 1px solid #2d2d2d;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    border: 1px solid #4d4c4c;
+
+    .card-button {
+      color: $accent;
+    }
+  }
+
+  .card-header {
+    background: #1e1e1e;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid $accent;
+  }
 
   .card-body {
-    padding: 1em 1em;
+    padding: 0.5em 1em;
   }
 
   .card-button {
     padding: 0.5em 1em;
-    background: #222;
+    background: #1e1e1e;
     font-size: .75em;
     text-align: center;
-    border-top: 1px solid #3c3c3c;
     text-transform: uppercase;
     font-weight: 600;
-    color: white;
+    color: grey;
+    border-top: 2px solid #2a2a2a;
   }
 
   .card-title {

@@ -1,9 +1,9 @@
-#projects {
+.project-row {
   display: flex;
   gap: 1em;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: calc((135px + 1em) * 3);
+  margin-bottom: 1em;
 }
 
 .project {
@@ -145,6 +145,15 @@
   background-size: 140px auto;
 }
 
+#project-2xko {
+  background: #232628;
+}
+
+#project-2xko .logo {
+  background-image: url('../images/2XKO Wiki logo.svg');
+  background-size: 110px auto;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
   #project-rs .logo {
     background-image: url('../images/RuneScape-Wiki-logo@2x.png');
@@ -193,29 +202,11 @@
     font-size: .7em;
     font-weight: normal;
   }
-
-  a {
-    transition: all .2s ease;
-    border: 1px solid transparent;
-
-    &:hover {
-      border: 1px solid $secondary-border;
-      text-decoration: none;
-    }
-  }
 }
 
 .row.home-row {
   flex-wrap: unset;
-
-  &::before {
-    content: "";
-    border: 1px solid $secondary-dark-border;
-  }
-
-  #projects {
-    order: -1;
-  }
+  align-items: center;
 
   .blog-container {
     flex-grow: 1;

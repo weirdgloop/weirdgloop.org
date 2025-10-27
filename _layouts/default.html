@@ -25,10 +25,16 @@
             </div>
         </header>
 
+        {% if page.full_width %}
         <div class="inner-container">
-            <div style="margin: auto; gap: 1em; justify-content: center;">
+        {% else %}
+        <div class="inner-container fixed-width">
+        {% endif %}
+            {% if page.no_parent_wrapper %}
                 {{ content }}
-            </div>
+            {% else %}
+                <div>{{ content }}</div>
+            {% endif %}
         </div>
 
         <footer>

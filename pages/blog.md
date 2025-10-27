@@ -12,9 +12,11 @@ permalink: /blog/
         {% for post in site.posts %}
         <div class="post-col">
             <a href="{{post.url}}" class="card text-white">
-                <div class="card-body">
+                <div class="card-header">
                     <h5 class="card-title">{{post.title}}</h5>
                     <h6 class="card-subtitle">{% if post.author %}{{ post.author }} &#8226; {% endif %}{{ post.date | date: "%-d %B %Y" }}</h6>
+                </div>
+                <div class="card-body">
                     <p>{{ post.excerpt | strip_html | newline_to_br }}</p>
                 </div>
                 {% if post.featured_image %}
