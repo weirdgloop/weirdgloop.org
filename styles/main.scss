@@ -277,3 +277,17 @@ code {
     margin: 0;
   }
 }
+
+.float-right {
+  display: block;
+  margin: 0px 0px 1em 1em;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .float-right {
+    float: none;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+}
