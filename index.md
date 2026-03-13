@@ -73,18 +73,15 @@ no_parent_wrapper: true
             {% if site.posts.size > 0 %}
             <div id="posts">
                 <div class="row" style="flex-direction: column; gap: 5px;">
-                    {% for post in site.posts limit:3 %}
+                    {% assign posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
+                    {% for post in posts limit:3 %}
                     <div class="post-col">
                         <a href="{{post.url}}" class="card text-white">
                             <div class="card-header">
                                 <h5 class="card-title">{{post.title}}</h5>
                                 <h6 class="card-subtitle">{% if post.author %}{{ post.author }} &#8226; {% endif %}{{ post.date | date: "%-d %B %Y" }}</h6>
                             </div>
-                            <div class="card-body">
-                                {% if forloop.index == 1 %}
-                                <p>{{ post.excerpt | strip_html | newline_to_br }}</p>
-                                {% endif %}
-                            </div>
+                            <div class="card-body">{% if forloop.index == 1 %}<p>{{ post.excerpt | strip_html | newline_to_br }}</p>{% endif %}</div>
                             <div class="card-button">
                                 Read more
                             </div>

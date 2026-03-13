@@ -123,7 +123,7 @@ h3 {
     border-bottom: 2px solid $accent;
   }
 
-  .card-body {
+  .card-body:not(:empty) {
     padding: 0.5em 1em;
   }
 
@@ -265,4 +265,15 @@ code {
   }
 }
 
+.footnotes {
+  font-size: 0.8em;
+  color: $muted;
 
+  ol {
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}

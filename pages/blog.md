@@ -10,6 +10,7 @@ permalink: /blog/
 <div class="posts all-posts-list">
     <div class="row" style="gap: 1em;">
         {% for post in site.posts %}
+        {% if post.hidden != true %}
         <div class="post-col">
             <a href="{{post.url}}" class="card text-white">
                 <div class="card-header">
@@ -26,6 +27,7 @@ permalink: /blog/
                 {% endif %}
             </a>
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 </div>
