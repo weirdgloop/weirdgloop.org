@@ -61,6 +61,11 @@ no_parent_wrapper: true
                         <div class="logo"></div>
                     </a>
                 </div>
+                <div class="project" title="GTA Wiki">
+                    <a id="project-gta" href="https://gta.wiki/" >
+                        <div class="logo"></div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="blog-container">
