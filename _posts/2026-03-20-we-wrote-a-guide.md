@@ -8,7 +8,7 @@ hidden: true
 Hi wiki friends! We moved the [GTA Wiki](https://gta.wiki/) off Fandom last weekend, so that’s kicked off a new round of wiki admins finding my [blog post](https://weirdgloop.org/blog/why-were-helping-more-wikis-move-away-from-fandom) and asking for advice on how to get their wikis off Fandom too. Since I started offering wiki-moving advice in 2024, somewhere around 100 people have hit us up in private, and I’ve realized we’re saying a lot of the same things over and over, most of which could easily just be somewhere public.
 <!--excerpt-->
 
-So…we made [a guide](https://meta.weirdgloop.org/w/Leaving_Fandom)! It’s a collection of practical things you’ll want to be thinking about if you’re moving your wiki off Fandom, based on the experiences that [River](https://river.me/), [Momo](https://meta.weirdgloop.org/w/User:Mudscape), and I [cook] have had in the last few years, helping wikis big and small beat up Goliath and migrate somewhere better.
+So…we made **[a guide](https://meta.weirdgloop.org/w/Leaving_Fandom)**! It’s a collection of practical things you’ll want to be thinking about if you’re moving your wiki off Fandom, based on the experiences that [River](https://river.me/), [Momo](https://meta.weirdgloop.org/w/User:Mudscape), and I [cook] have had in the last few years, helping wikis big and small beat up Goliath and migrate somewhere better.
 
 Some topics:
 
