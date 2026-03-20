@@ -46,7 +46,7 @@ The list goes on: [here’s a video](https://www.youtube.com/watch?v=IWpSJj_bYUk
 So…go talk to your game’s community managers! There’s likely someone at the studio who understands how important the wiki is and is frustrated that it’s on Fandom, but who has no idea that the wiki contributors also want out. If that's the case, there's probably a reasonable path forward where you work together, and if you can find the right person to talk to at the studio, they’ll be your most important ally in the whole thing. There’s a lot they can do to put their thumb on the scale to help the new wiki, including:
 
 - Helping announce the move, and linking to the wiki in prominent places on their website
-- Putting the wiki on a subdomain of their website like [wiki.leagueoflegends.com](https://wiki.leagueoflegends.com/) or [wiki.warframe.com](https://wiki.warframe.com/), or hosting it on their servers, like the [https://poewiki.net](Path of Exile devs)
+- Putting the wiki on a subdomain of their website like [wiki.leagueoflegends.com](https://wiki.leagueoflegends.com/) or [wiki.warframe.com](https://wiki.warframe.com/), or hosting it on their servers, like the [Path of Exile devs](https://poewiki.net)
 - Requesting a takedown of any content on the Fandom wiki that infringes their copyright, like art or other game assets
 - Working more closely with the wiki editors on projects that make the wiki better (more on this at the end!)
 
