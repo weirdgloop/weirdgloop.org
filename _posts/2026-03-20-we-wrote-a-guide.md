@@ -3,7 +3,6 @@ layout: post
 title: We wrote a guide to help you get your wiki off Fandom
 author: cookmeplox, River
 excerpt_separator: <!--excerpt-->
-hidden: true
 ---
 Hi wiki friends! We moved the [GTA Wiki](https://gta.wiki/) off Fandom last weekend, so that’s kicked off a new round of wiki admins finding my [blog post](https://weirdgloop.org/blog/why-were-helping-more-wikis-move-away-from-fandom) and asking for advice on how to get their wikis off Fandom too. Since I started offering wiki-moving advice in 2024, somewhere around 100 people have hit us up in private, and I’ve realized we’re saying a lot of the same things over and over, most of which could easily just be somewhere public.
 <!--excerpt-->
