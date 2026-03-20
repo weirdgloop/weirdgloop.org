@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why we're helping more wikis move away from Fandom
-author: Jonathan Lee
+author: cookmeplox
 excerpt_separator: <!--excerpt-->
 ---
 
