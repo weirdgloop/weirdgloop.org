@@ -79,7 +79,7 @@ no_parent_wrapper: true
             <div id="posts">
                 <div class="row" style="flex-direction: column; gap: 5px;">
                     {% assign posts = site.posts | where_exp: 'item', 'item.hidden != true' %}
-                    {% for post in posts limit:3 %}
+                    {% for post in posts limit:2 %}
                     <div class="post-col">
                         <a href="{{post.url}}" class="card text-white">
                             <div class="card-header">
