@@ -8,7 +8,7 @@ hidden: true
 Hi wiki friends! We moved the [GTA Wiki](https://gta.wiki/) off Fandom last weekend, so that’s kicked off a new round of wiki admins finding my [blog post](https://weirdgloop.org/blog/why-were-helping-more-wikis-move-away-from-fandom) and asking for advice on how to get their wikis off Fandom too. Since I started offering wiki-moving advice in 2024, somewhere around 100 people have hit us up in private, and I’ve realized we’re saying a lot of the same things over and over, most of which could easily just be somewhere public.
 <!--excerpt-->
 
-So…we made [a guide](https://meta.weirdgloop.org/w/Leaving_Fandom)! It’s a collection of practical things you’ll want to be thinking about if you’re moving your wiki off Fandom, based on the experiences that [River](https://river.me/), [Momo](https://meta.weirdgloop.org/w/User:Mudscape), and I have had in the last few years, helping wikis big and small beat up Goliath and migrate somewhere better.
+So…we made **[a guide](https://meta.weirdgloop.org/w/Leaving_Fandom)**! It’s a collection of practical things you’ll want to be thinking about if you’re moving your wiki off Fandom, based on the experiences that [River](https://river.me/), [Momo](https://meta.weirdgloop.org/w/User:Mudscape), and I [cook] have had in the last few years, helping wikis big and small beat up Goliath and migrate somewhere better.
 
 Some topics:
 
@@ -43,7 +43,7 @@ In my experience, the opposite is usually true! I’ve seen at least 3 times whe
 
 The list goes on: [here’s a video](https://www.youtube.com/watch?v=IWpSJj_bYUk) from the developer of Satisfactory talking about their unpleasant interactions with Fandom. A community manager for a different, very popular game once told me that their studio got fed up with the terrible ad situation on their Fandom wiki, and inquired with Fandom how much they’d have to pay to get the wiki to not have any ads. They stopped pursuing this when Fandom said they’d be willing to consider it…for about 5 million dollars a year. For just the one wiki.
 
-So…go talk to your game’s community managers! There’s likely someone at the studio who that understands how important the wiki is and , and is frustrated that it’s on Fandom, but has no idea the wiki contributors also want out or thatfeel that way and no idea there's a reasonable path forward where you guys work together. If you can find the right person to talk to at the studio, they’ll be your most important ally in the whole thing. There’s a lot they can do to put their thumb on the scale to help the new wiki, including:
+So…go talk to your game’s community managers! There’s likely someone at the studio who understands how important the wiki is and is frustrated that it’s on Fandom, but who has no idea that the wiki contributors also want out. If that's the case, there's probably a reasonable path forward where you work together, and if you can find the right person to talk to at the studio, they’ll be your most important ally in the whole thing. There’s a lot they can do to put their thumb on the scale to help the new wiki, including:
 
 - Helping announce the move, and linking to the wiki in prominent places on their website
 - Putting the wiki on a subdomain of their website like [wiki.leagueoflegends.com](https://wiki.leagueoflegends.com/) or [wiki.warframe.com](https://wiki.warframe.com/), or hosting it on their servers, like the [https://poewiki.net](Path of Exile devs)
