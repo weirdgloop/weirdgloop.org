@@ -291,3 +291,17 @@ code {
     margin-bottom: 1em;
   }
 }
+
+blockquote {
+  background: #343434;
+  padding: 1em;
+  font-style: italic;
+
+  p {
+    margin: 0;
+  }
+
+  p:has(+ p) {
+    margin-bottom: 1em;
+  }
+}
