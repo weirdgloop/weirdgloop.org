@@ -1,9 +1,20 @@
-.project-row {
-  display: flex;
+#projects {
+  display: grid;
   gap: 1em;
-  flex-wrap: wrap;
-  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+  #projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .project {
@@ -171,6 +182,33 @@
 #project-gta .logo {
   background-image: url('../images/GTA Wiki logo.png');
   background-size: 110px auto;
+}
+
+#project-hsb {
+  background: url('../images/Hypixel Skyblock Wiki background.png') center / cover no-repeat;
+}
+
+#project-hsb .logo {
+  background-image: url('../images/Hypixel Skyblock Wiki logo.png');
+  background-size: 110px auto;
+}
+
+#project-sn {
+  background: url('../images/Subnautica Wiki background.jpg') center / cover no-repeat;
+}
+
+#project-sn .logo {
+  background-image: url('../images/Subnautica Wiki logo.png');
+  background-size: 110px auto;
+}
+
+#project-valorant {
+  background: url('../images/Valorant Wiki background.png') center / cover no-repeat;
+}
+
+#project-valorant .logo {
+  background-image: url('../images/Valorant Wiki logo.png');
+  background-size: 70px auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {

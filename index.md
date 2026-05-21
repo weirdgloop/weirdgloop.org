@@ -5,67 +5,80 @@ no_parent_wrapper: true
 <div style="margin: auto;">
     <div class="row home-row">
         <div id="projects">
-            <div class="project-row">
-                <div class="project" title="RuneScape Wiki">
-                    <a id="project-rs" href="https://runescape.wiki/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Old School RuneScape Wiki">
-                    <a id="project-osrs" href="https://oldschool.runescape.wiki/">
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="RuneScape Classic Wiki">
-                    <a id="project-rsc" href="https://classic.runescape.wiki/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Minecraft Wiki">
-                    <a id="project-mc" href="https://minecraft.wiki/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="League of Legends Wiki">
-                    <a id="project-lol" href="https://wiki.leagueoflegends.com/en-us/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="2XKO Wiki">
-                    <a id="project-2xko" href="https://wiki.play2xko.com/en-us/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Warframe Wiki">
-                    <a id="project-wf" href="https://wiki.warframe.com/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Vampire Survivors Wiki">
-                    <a id="project-vs" href="https://vampire.survivors.wiki/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Balatro Wiki">
-                    <a id="project-balatro" href="https://balatrowiki.org/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Smite 2 Wiki">
-                    <a id="project-smite2" href="https://wiki.smite2.com/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="Hytale Wiki">
-                    <a id="project-hytale" href="https://hytalewiki.org/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
-                <div class="project" title="GTA Wiki">
-                    <a id="project-gta" href="https://gta.wiki/" >
-                        <div class="logo"></div>
-                    </a>
-                </div>
+            <div class="project" title="RuneScape Wiki">
+                <a id="project-rs" href="https://runescape.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Old School RuneScape Wiki">
+                <a id="project-osrs" href="https://oldschool.runescape.wiki/">
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="RuneScape Classic Wiki">
+                <a id="project-rsc" href="https://classic.runescape.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Minecraft Wiki">
+                <a id="project-mc" href="https://minecraft.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Warframe Wiki">
+                <a id="project-wf" href="https://wiki.warframe.com/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="League of Legends Wiki">
+                <a id="project-lol" href="https://wiki.leagueoflegends.com/en-us/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="2XKO Wiki">
+                <a id="project-2xko" href="https://wiki.play2xko.com/en-us/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Valorant Wiki">
+                <a id="project-valorant" href="https://wiki.playvalorant.com/en-us/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Vampire Survivors Wiki">
+                <a id="project-vs" href="https://vampire.survivors.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Balatro Wiki">
+                <a id="project-balatro" href="https://balatrowiki.org/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Smite 2 Wiki">
+                <a id="project-smite2" href="https://wiki.smite2.com/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Hytale Wiki">
+                <a id="project-hytale" href="https://hytalewiki.org/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="GTA Wiki">
+                <a id="project-gta" href="https://gta.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Hypixel Skyblock Wiki">
+                <a id="project-hsb" href="https://hypixelskyblock.minecraft.wiki/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Subnautica Wiki">
+                <a id="project-sn" href="https://wiki.subnautica.com/sn/" >
+                    <div class="logo"></div>
+                </a>
             </div>
         </div>
         <div class="blog-container">
