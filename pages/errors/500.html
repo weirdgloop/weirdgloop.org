@@ -1,0 +1,92 @@
+<html lang="en">
+    <head>
+        <title>Server error</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            @font-face {
+                font-family: 'Noto Sans';
+                src: url('/pages/errors/assets/noto-sans-latin-400-normal.woff2');
+            }
+            @font-face {
+                font-family: 'Noto Sans';
+                src: url('/pages/errors/assets/noto-sans-latin-600-normal.woff2');
+                font-weight: 600;
+            }
+            html, body {
+                height: 100%;
+            }
+            body {
+                background: #151515;
+                color: #cecece;
+                font-family: 'Noto Sans', sans-serif;
+                max-width: 1000px;
+                margin: auto;
+                display: flex;
+            }
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5em;
+                padding: 0 1.5em;
+                margin-top: 2em;
+                width: 100%;
+            }
+            .header {
+                width: 100%;
+                font-weight: 600;
+                display: flex;
+                gap: 0.5em;
+                align-items: center;
+                justify-content: center;
+                color: inherit;
+                text-decoration: none;
+            }
+            main { width: 100%; }
+            main > div {
+                background: #1c1c1c;
+                border-radius: 5px;
+                border: 1px solid #343434;
+                padding: 1.5em;
+                box-shadow: 0 0 5px 2px #00000030;
+            }
+            main > div > *:first-child { margin-top: 0; }
+            main > div > *:last-child { margin-bottom: 0; }
+            h1 {
+                color: #b7d7a5;
+                font-weight: 600;
+                font-size: 28px;
+            }
+            a {
+                color: #a9d094;
+            }
+            .help {
+                margin-top: 2em;
+                background: #3b3b3b;
+                border: 1px solid #494949;
+                border-radius: 5px;
+                padding: 0.5em 0.75em;
+                font-size: 14px;
+            }
+            .help p {
+                margin: 0;
+            }
+            .help p:not(:first-child) {
+                margin-top: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <a href="https://weirdgloop.org" class="header" target="_blank" rel="noopener">
+                <img src="/pages/errors/assets/logo.png" alt="Weird Gloop logo" width="20" />
+                <span>Weird Gloop</span>
+            </a>
+            <main>
+                <div>
+                    <p>There was an error loading this page. This is likely due to a temporary problem. Please try again in a few minutes.</p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
