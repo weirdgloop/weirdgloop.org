@@ -80,6 +80,11 @@ no_parent_wrapper: true
                     <div class="logo"></div>
                 </a>
             </div>
+            <div class="project" title="Overwatch Wiki">
+                <a id="project-ow" href="https://overwatch.weirdgloop.org/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
         </div>
         <div class="blog-container">
             <div style="display: flex; align-items: center; margin-bottom: 1em; gap: 1em; justify-content: space-between">

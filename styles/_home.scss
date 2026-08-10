@@ -1,7 +1,7 @@
 #projects {
   display: grid;
   gap: 1em;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-bottom: 1em;
 }
 
@@ -209,6 +209,15 @@
 #project-valorant .logo {
   background-image: url('../images/Valorant Wiki logo.png');
   background-size: 70px auto;
+}
+
+#project-ow {
+  background: url('../images/Overwatch Wiki background.jpg') center / cover no-repeat;
+}
+
+#project-ow .logo {
+  background: url('../images/Overwatch Wiki logo.png') center / cover no-repeat;
+  background-size: 100px auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
