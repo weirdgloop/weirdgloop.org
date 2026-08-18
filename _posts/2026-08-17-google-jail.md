@@ -56,7 +56,7 @@ I've always said that the only legitimately *hard* part about moving your wiki o
 
 So now, when wiki communities come to us asking if we can host them, the conversation about domains is much more complicated than it used to be. We have three basic options:
 1. stick with (say) overwatch.wiki - this is the natural place where everyone expects it to be, but it’ll get wrecked on Google
-2. try to arrange something with the game studio at (say) wiki.overwatch.com - this is achievable about half of the time, but sometimes
+2. try to arrange something with the game studio at (say) wiki.overwatch.com - this is achievable about half of the time, but not consistently
 3. put them, at least temporarily, at a subdomain of a domain we already control, that has decent domain authority
 
 None of these are great options, but I hope it makes sense why we’ve been gravitating towards option 3 recently.
