@@ -6,3 +6,5 @@ yarn.lock
 .idea/
 .jekyll-cache/
 .DS_Store
+vendor/
+.bundle/

@@ -1,7 +1,7 @@
 #projects {
   display: grid;
   gap: 1em;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 1em;
 }
 
@@ -218,6 +218,24 @@
 #project-ow .logo {
   background: url('../images/Overwatch Wiki logo.png') center / cover no-repeat;
   background-size: 100px auto;
+}
+
+#project-fortnite {
+  background: url('../images/Fortnite Wiki background.png') center / cover no-repeat;
+}
+
+#project-fortnite .logo {
+  background: url('../images/Fortnite Wiki logo.png') center / cover no-repeat;
+  background-size: 120px auto;
+}
+
+#project-valheim {
+  background: url('../images/Valheim Wiki background.jpg') center / cover no-repeat;
+}
+
+#project-valheim .logo {
+  background: url('../images/Valheim Wiki logo.png') center / cover no-repeat;
+  background-size: 130px auto;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {

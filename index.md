@@ -85,6 +85,16 @@ no_parent_wrapper: true
                     <div class="logo"></div>
                 </a>
             </div>
+            <div class="project" title="Fortnite Wiki">
+                <a id="project-fortnite" href="https://fortnite.weirdgloop.org/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="project" title="Valheim Wiki">
+                <a id="project-valheim" href="https://valheim.weirdgloop.org/" >
+                    <div class="logo"></div>
+                </a>
+            </div>
         </div>
         <div class="blog-container">
             <div style="display: flex; align-items: center; margin-bottom: 1em; gap: 1em; justify-content: space-between">
