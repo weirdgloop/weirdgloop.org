@@ -4,4 +4,59 @@ header {
   border-bottom: 2px solid $secondary-dark-border;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.header-logo {
+  margin: 1em 0;
+}
+
+.header-wikis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+
+  a {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    box-shadow: $shadow;
+    transition: 0.3s ease;
+
+    &:hover {
+      filter: brightness(110%);
+    }
+  }
+
+  .logo {
+    flex: 1;
+    margin: 2px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-wikis {
+    gap: 4px;
+
+    a {
+      width: 36px;
+      height: 36px;
+      border-radius: 6px;
+    }
+
+    .logo {
+      margin: 2px;
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .header-wikis {
+    display: none;
+  }
 }

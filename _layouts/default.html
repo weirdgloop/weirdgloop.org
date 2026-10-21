@@ -15,11 +15,37 @@
 <body>
     <div class="outer-container">
         <header>
-            <div style="margin: 1em 0;">
+            {% if page.wiki_header %}
+            <div class="header-wikis">
+                <a id="project-rs" href="https://runescape.wiki/" title="RuneScape Wiki"><div class="logo"></div></a>
+                <a id="project-osrs" href="https://oldschool.runescape.wiki/" title="Old School RuneScape Wiki"><div class="logo"></div></a>
+                <a id="project-rsc" href="https://classic.runescape.wiki/" title="RuneScape Classic Wiki"><div class="logo"></div></a>
+                <a id="project-mc" href="https://minecraft.wiki/" title="Minecraft Wiki"><div class="logo"></div></a>
+                <a id="project-wf" href="https://wiki.warframe.com/" title="Warframe Wiki"><div class="logo"></div></a>
+                <a id="project-lol" href="https://wiki.leagueoflegends.com/en-us/" title="League of Legends Wiki"><div class="logo"></div></a>
+                <a id="project-2xko" href="https://wiki.play2xko.com/en-us/" title="2XKO Wiki"><div class="logo"></div></a>
+                <a id="project-valorant" href="https://wiki.playvalorant.com/en-us/" title="Valorant Wiki"><div class="logo"></div></a>
+                <a id="project-vs" href="https://vampire.survivors.wiki/" title="Vampire Survivors Wiki"><div class="logo"></div></a>
+            </div>
+            {% endif %}
+            <div class="header-logo">
                 <a href="{{ site.url }}" title="Weird Gloop">
                     <img src="/images/Weird-Gloop-logo.png" alt="Weird Gloop" width="200px">
                 </a>
             </div>
+            {% if page.wiki_header %}
+            <div class="header-wikis">
+                <a id="project-balatro" href="https://balatrowiki.org/" title="Balatro Wiki"><div class="logo"></div></a>
+                <a id="project-smite2" href="https://wiki.smite2.com/" title="Smite 2 Wiki"><div class="logo"></div></a>
+                <a id="project-hytale" href="https://hytalewiki.org/" title="Hytale Wiki"><div class="logo"></div></a>
+                <a id="project-gta" href="https://gta.wiki/" title="GTA Wiki"><div class="logo"></div></a>
+                <a id="project-hsb" href="https://hypixelskyblock.minecraft.wiki/" title="Hypixel Skyblock Wiki"><div class="logo"></div></a>
+                <a id="project-sn" href="https://wiki.subnautica.com/sn/" title="Subnautica Wiki"><div class="logo"></div></a>
+                <a id="project-ow" href="https://overwatch.weirdgloop.org/" title="Overwatch Wiki"><div class="logo"></div></a>
+                <a id="project-fortnite" href="https://fortnite.weirdgloop.org/" title="Fortnite Wiki"><div class="logo"></div></a>
+                <a id="project-valheim" href="https://valheim.weirdgloop.org/" title="Valheim Wiki"><div class="logo"></div></a>
+            </div>
+            {% endif %}
         </header>
 
         {% if page.full_width %}
